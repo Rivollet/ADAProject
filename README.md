@@ -1,5 +1,6 @@
 # ADAProject: World recipes viz
 Project for Applied Data Analysis class at EPFL.
+
 *Groupe composed by: Loïc Veyssière, Maximilian Mordig, David Rivollet*
 
 ## Abstract
@@ -9,6 +10,15 @@ The objectif of our project is to analyze recipes from around the world in order
 For this project, we will need a lot of recipes in order to have relevant conclusion. Moreover, these recipes need to have the specific information on their geographical origin. The american website [allrecipes.com](http://allrecipes.com/) is one of the most famous webpage for recipes storage on internet. Thousands of recipes are accessible with all the information needed.
 
 ## Feasibility and Risks
+### Access to the data
+Our data come from a free access website ruled by a private company. The major risk of the project would be to be enable to access the data we need. However, we already tested to fetch some recipes or other information from the website with good result. We are still vulnerable to a ban or any limited access from the website.
+
+### Uncompleted data
+An other problem that can occur is that we miss information in the data we'll have. For example, not all recipes have detailed quatities of nutriment they contain. Therefore, these recipes would not be usable for specific vizualisation.
+
+### Missing data
+One of the major problem would also be the fact that we won't have many recipes for specific region of the world. Therefore, the conclusion and statistic would not be relevant. In order to counter that, we can look for more recipies on other websites to fill the lack of information for specific countries. We can also regroup countries by relevant region and show statistical information on these bigger region.
+
 
 ## Deliverables
 
