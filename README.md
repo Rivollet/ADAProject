@@ -37,3 +37,4 @@ Finally, another big risk of our problem would be an inconsistent repartition of
 Our project is going to be presented as a website form where the user will be able to "play" with different interactive visualization. The principal viz is going to be a map of the world, where one can observe different food and nutriment consumption of the population depending on their world region and ethnic origins. For some specific output, we are also going to make link with other information as the percentage of obese or population mean lifetime to show how food influence health and lifestyle of people.
 
 ## Timeplan
+**7 november 2016:** Start of the project
