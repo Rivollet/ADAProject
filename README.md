@@ -4,10 +4,10 @@ Project for Applied Data Analysis class at EPFL.
 *Groupe composed by: Loïc Veyssière, Maximilian Mordig, David Rivollet*
 
 ## Abstract
-The objectif of our project is to analyze recipes from around the world in order to observe cultural differences between world regions. We are going to use interactive and intuitive vizualisation to show these differences expressed through the type of food populations eat. One example of such interactive graph would be to show by countries the nutriments contented in the recipies (ex: fat, proteins, salt, etc..). We can also analyze where in the world a specific ingredient (ex: beef, rice, butter, etc..) is mostly consumed.
+The objective of our project is to analyze recipes from around the world in order to observe cultural differences between world regions. We are going to use interactive and intuitive visualisation to show these differences expressed through the type of food populations eat. One example of such interactive graph would be to show by countries the nutriments contented in the recipes (ex: fat, proteins, salt, etc..). We can also analyze where in the world a specific ingredient (ex: beef, rice, butter, etc..) is mostly consumed.
 
 ## Data description
-For this project, we will need a lot of recipes in order to have relevant conclusion. Moreover, these recipes need to have the specific information on their geographical origin. The american website [allrecipes.com](http://allrecipes.com/) is one of the most famous webpage for recipes storage on internet. Thousands of recipes are accessible with all the information needed.
+For this project, we will need a lot of recipes in order to have relevant conclusion. Moreover, these recipes need to have the specific information on their geographical origin. The American website [allrecipes.com](http://allrecipes.com/) is one of the most famous webpage for recipe storage on the internet. Thousands of recipes are accessible with all the information needed.
 
 To collect the information on [allrecipes.com](http://allrecipes.com/), three steps are required:
   * Obtain the different categories
@@ -22,16 +22,18 @@ For each recipe the information is
  * Reviews: Number of Reviews, Most helpful reviews
 
 ## Feasibility and Risks
+The project seems to be feasible as long as we have a well filled data based of recipes and that we have enough recipes for the different world regions. We already tried successfully to extract some recipes from the website [allrecipes.com](http://allrecipes.com/) so we should be able to fill our data based with their information. However, we are still exposed to some risks detailed in the following paragraphs.
+
 ### Access to the data
-Our data come from a free access website ruled by a private company. The major risk of the project would be to be enable to access the data we need. However, we already tested to fetch some recipes or other information from the website with good result. We are still vulnerable to a ban or any limited access from the website.
+Our data come from a free accessible website ruled by a private company. Therefore, the major risk of the project would be to see our data access to be limited. If the website realizes that we are reading many recipes and decide to block our access, we will have to find another source for our data filling.
 
 ### Uncompleted data
-An other problem that can occur is that we miss information in the data we'll have. For example, not all recipes have detailed quatities of nutriment they contain. Therefore, these recipes would not be usable for specific vizualisation.
+Another problem that can occur is that our data can be uncompleted. This issue can appear during the data analysis process. An example of such missing information can be that not all the recipes have detailed quantities of nutriment they content. Therefore, we would not be able to use them in the nutriment consumed by the population of the different region or countries in the world.
 
 ### Missing data
-One of the major problem would also be the fact that we won't have many recipes for specific region of the world. Therefore, the conclusion and statistic would not be relevant. In order to counter that, we can look for more recipies on other websites to fill the lack of information for specific countries. We can also regroup countries by relevant region and show statistical information on these bigger region.
-
+Finally, another big risk of our problem would be an inconsistent repartition of the recipes throw world region. If we don't have enough recipes from a specific country/region, the statistical conclusion derived from them would not be relevant. Hence, we would have to look for recipes on other web platform, to fill the lack of information, but data structure can be really different and it could create further problems.
 
 ## Deliverables
+Our project is going to be presented as a website form where the user will be able to "play" with different interactive visualization. The principal viz is going to be a map of the world, where one can observe different food and nutriment consumption of the population depending on their world region and ethnic origins. For some specific output, we are also going to make link with other information as the percentage of obese or population mean lifetime to show how food influence health and lifestyle of people.
 
 ## Timeplan
