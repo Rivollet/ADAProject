@@ -34,7 +34,13 @@ Another problem that can occur is that our data can be uncompleted. This issue c
 Finally, another big risk of our problem would be an inconsistent repartition of the recipes throw world region. If we don't have enough recipes from a specific country/region, the statistical conclusion derived from them would not be relevant. Hence, we would have to look for recipes on other web platform, to fill the lack of information, but data structure can be really different and it could create further problems.
 
 ## Deliverables
-Our project is going to be presented as a website form where the user will be able to "play" with different interactive visualization. The principal viz is going to be a map of the world, where one can observe different food and nutriment consumption of the population depending on their world region and ethnic origins. For some specific output, we are also going to make link with other information as the percentage of obese or population mean lifetime to show how food influence health and lifestyle of people.
+Our project is going to be presented as a website form where the user will be able to "play" with different interactive visualizations. The principal viz is going to be a map of the world, where one can observe different food and nutriment consumption of the population depending on their world region and ethnic origins. For some specific output, we are also going to make link with other information as the percentage of obese or population mean lifetime to show how food influence health and lifestyle of people.
 
 ## Timeplan
 **7 november 2016:** Start of the project
+**14 november 2016:** Get data needed from the website
+**30 november 2016:** Cleaned data divided correctly by world region
+**12 december 2016:** Midterm checkpoint - Examples of vizualisations
+**5 january 2017:** Start of the website design
+**20 january 2017:** External research to extract relevant conclusion of the visualizations.
+**31 january 2017:** End of the project. Final submission and update of the website
