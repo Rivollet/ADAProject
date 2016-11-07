@@ -38,9 +38,15 @@ Our project is going to be presented as a website form where the user will be ab
 
 ## Timeplan
 **7 november 2016:** Start of the project
+
 **14 november 2016:** Get data needed from the website
+
 **30 november 2016:** Cleaned data divided correctly by world region
+
 **12 december 2016:** Midterm checkpoint - Examples of vizualisations
+
 **5 january 2017:** Start of the website design
+
 **20 january 2017:** External research to extract relevant conclusion of the visualizations.
+
 **31 january 2017:** End of the project. Final submission and update of the website
