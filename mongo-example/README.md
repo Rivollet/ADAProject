@@ -1,6 +1,6 @@
 ## Notes on the utilisation of MongoDB
 
-<aside class="notice">Be sure you are connect on the **EPFL network** (connection at EPFL or via VPN)</aside>
+<aside class="notice">Be sure you are connected on the **EPFL network** (connection at EPFL or via VPN)</aside>
 
 ### Utilisation on Python
 
