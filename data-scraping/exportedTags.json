@@ -1,0 +1,446 @@
+[
+    {
+        "code": 0,
+        "name": "world-cuisine"
+    },
+    {
+        "code": 0,
+        "name": "african"
+    },
+    {
+        "code": 0,
+        "name": "north-african"
+    },
+    {
+        "code": 0,
+        "name": "egyptian"
+    },
+    {
+        "code": 0,
+        "name": "moroccan"
+    },
+    {
+        "code": 0,
+        "name": "main-dishes"
+    },
+    {
+        "code": 0,
+        "name": "soups-and-stews"
+    },
+    {
+        "code": 0,
+        "name": "east-african"
+    },
+    {
+        "code": 0,
+        "name": "side-dishes"
+    },
+    {
+        "code": 0,
+        "name": "south-african"
+    },
+    {
+        "code": 0,
+        "name": "asian"
+    },
+    {
+        "code": 0,
+        "name": "indian"
+    },
+    {
+        "code": 0,
+        "name": "appetizers"
+    },
+    {
+        "code": 0,
+        "name": "bread"
+    },
+    {
+        "code": 0,
+        "name": "desserts"
+    },
+    {
+        "code": 0,
+        "name": "drinks"
+    },
+    {
+        "code": 0,
+        "name": "chicken"
+    },
+    {
+        "code": 0,
+        "name": "curry"
+    },
+    {
+        "code": 0,
+        "name": "rice"
+    },
+    {
+        "code": 0,
+        "name": "vegetarian"
+    },
+    {
+        "code": 0,
+        "name": "chinese"
+    },
+    {
+        "code": 0,
+        "name": "pork"
+    },
+    {
+        "code": 0,
+        "name": "seafood"
+    },
+    {
+        "code": 0,
+        "name": "thai"
+    },
+    {
+        "code": 0,
+        "name": "pad-thai"
+    },
+    {
+        "code": 0,
+        "name": "japanese"
+    },
+    {
+        "code": 0,
+        "name": "sushi"
+    },
+    {
+        "code": 0,
+        "name": "filipino"
+    },
+    {
+        "code": 0,
+        "name": "korean"
+    },
+    {
+        "code": 0,
+        "name": "bulgogi"
+    },
+    {
+        "code": 0,
+        "name": "kalbi"
+    },
+    {
+        "code": 0,
+        "name": "bangladeshi"
+    },
+    {
+        "code": 0,
+        "name": "pakistani"
+    },
+    {
+        "code": 0,
+        "name": "indonesian"
+    },
+    {
+        "code": 0,
+        "name": "malaysian"
+    },
+    {
+        "code": 0,
+        "name": "vietnamese"
+    },
+    {
+        "code": 0,
+        "name": "australian-and-new-zealander"
+    },
+    {
+        "code": 0,
+        "name": "occasions"
+    },
+    {
+        "code": 0,
+        "name": "canadian"
+    },
+    {
+        "code": 0,
+        "name": "allrecipes-allstars"
+    },
+    {
+        "code": 0,
+        "name": "canada-day"
+    },
+    {
+        "code": 0,
+        "name": "grey-cup"
+    },
+    {
+        "code": 0,
+        "name": "quebec"
+    },
+    {
+        "code": 0,
+        "name": "toronto"
+    },
+    {
+        "code": 0,
+        "name": "vancouver"
+    },
+    {
+        "code": 0,
+        "name": "european"
+    },
+    {
+        "code": 0,
+        "name": "austrian"
+    },
+    {
+        "code": 0,
+        "name": "belgian"
+    },
+    {
+        "code": 0,
+        "name": "dutch"
+    },
+    {
+        "code": 0,
+        "name": "eastern-european"
+    },
+    {
+        "code": 0,
+        "name": "czech"
+    },
+    {
+        "code": 0,
+        "name": "hungarian"
+    },
+    {
+        "code": 0,
+        "name": "polish"
+    },
+    {
+        "code": 0,
+        "name": "russian"
+    },
+    {
+        "code": 0,
+        "name": "french"
+    },
+    {
+        "code": 0,
+        "name": "french-bread"
+    },
+    {
+        "code": 0,
+        "name": "german"
+    },
+    {
+        "code": 0,
+        "name": "greek"
+    },
+    {
+        "code": 0,
+        "name": "beef"
+    },
+    {
+        "code": 0,
+        "name": "salads"
+    },
+    {
+        "code": 0,
+        "name": "italian"
+    },
+    {
+        "code": 0,
+        "name": "authentic"
+    },
+    {
+        "code": 0,
+        "name": "turkey"
+    },
+    {
+        "code": 0,
+        "name": "portuguese"
+    },
+    {
+        "code": 0,
+        "name": "scandinavian"
+    },
+    {
+        "code": 0,
+        "name": "danish"
+    },
+    {
+        "code": 0,
+        "name": "finnish"
+    },
+    {
+        "code": 0,
+        "name": "norwegian"
+    },
+    {
+        "code": 0,
+        "name": "swedish"
+    },
+    {
+        "code": 0,
+        "name": "spanish"
+    },
+    {
+        "code": 0,
+        "name": "paella"
+    },
+    {
+        "code": 0,
+        "name": "swiss"
+    },
+    {
+        "code": 0,
+        "name": "uk-and-ireland"
+    },
+    {
+        "code": 0,
+        "name": "english"
+    },
+    {
+        "code": 0,
+        "name": "irish"
+    },
+    {
+        "code": 0,
+        "name": "scottish"
+    },
+    {
+        "code": 0,
+        "name": "burns-night"
+    },
+    {
+        "code": 0,
+        "name": "guy-fawkes-night"
+    },
+    {
+        "code": 0,
+        "name": "stir-up-sunday"
+    },
+    {
+        "code": 0,
+        "name": "hogmanay"
+    },
+    {
+        "code": 0,
+        "name": "boxing-day"
+    },
+    {
+        "code": 0,
+        "name": "welsh"
+    },
+    {
+        "code": 0,
+        "name": "latin-american"
+    },
+    {
+        "code": 0,
+        "name": "caribbean"
+    },
+    {
+        "code": 0,
+        "name": "cuban"
+    },
+    {
+        "code": 0,
+        "name": "jamaican"
+    },
+    {
+        "code": 0,
+        "name": "puerto-rican"
+    },
+    {
+        "code": 0,
+        "name": "mexican"
+    },
+    {
+        "code": 0,
+        "name": "casserole"
+    },
+    {
+        "code": 0,
+        "name": "enchiladas"
+    },
+    {
+        "code": 0,
+        "name": "tacos"
+    },
+    {
+        "code": 0,
+        "name": "fish"
+    },
+    {
+        "code": 0,
+        "name": "burritos"
+    },
+    {
+        "code": 0,
+        "name": "chile-rellenos"
+    },
+    {
+        "code": 0,
+        "name": "fajitas"
+    },
+    {
+        "code": 0,
+        "name": "mexican-lasagna"
+    },
+    {
+        "code": 0,
+        "name": "tamales"
+    },
+    {
+        "code": 0,
+        "name": "quesadillas"
+    },
+    {
+        "code": 0,
+        "name": "beans"
+    },
+    {
+        "code": 0,
+        "name": "chili"
+    },
+    {
+        "code": 0,
+        "name": "south-american"
+    },
+    {
+        "code": 0,
+        "name": "argentinian"
+    },
+    {
+        "code": 0,
+        "name": "brazilian"
+    },
+    {
+        "code": 0,
+        "name": "chilean"
+    },
+    {
+        "code": 0,
+        "name": "colombian"
+    },
+    {
+        "code": 0,
+        "name": "peruvian"
+    },
+    {
+        "code": 0,
+        "name": "middle-eastern"
+    },
+    {
+        "code": 0,
+        "name": "israeli"
+    },
+    {
+        "code": 0,
+        "name": "lebanese"
+    },
+    {
+        "code": 0,
+        "name": "persian"
+    },
+    {
+        "code": 0,
+        "name": "turkish"
+    }
+]
