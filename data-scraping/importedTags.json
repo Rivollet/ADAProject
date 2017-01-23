@@ -1,0 +1,598 @@
+[{
+    "code": 2,
+    "name": "us-recipes"
+}, {
+    "code": 0,
+    "name": "us-recipes-by-state"
+}, {
+    "code": 3,
+    "name": "alabama"
+}, {
+    "code": 3,
+    "name": "alaska"
+}, {
+    "code": 3,
+    "name": "arizona"
+}, {
+    "code": 3,
+    "name": "arkansas"
+}, {
+    "code": 4,
+    "name": "california"
+}, {
+    "code": 4,
+    "name": "san-francisco"
+}, {
+    "code": 4,
+    "name": "san-diego"
+}, {
+    "code": 4,
+    "name": "los-angeles"
+}, {
+    "code": 4,
+    "name": "oakland"
+}, {
+    "code": 3,
+    "name": "colorado"
+}, {
+    "code": 3,
+    "name": "connecticut"
+}, {
+    "code": 3,
+    "name": "delaware"
+}, {
+    "code": 3,
+    "name": "florida"
+}, {
+    "code": 4,
+    "name": "miami"
+}, {
+    "code": 4,
+    "name": "tampa-bay"
+}, {
+    "code": 4,
+    "name": "georgia"
+}, {
+    "code": 4,
+    "name": "atlanta"
+}, {
+    "code": 3,
+    "name": "hawaii"
+}, {
+    "code": 3,
+    "name": "idaho"
+}, {
+    "code": 3,
+    "name": "illinois"
+}, {
+    "code": 4,
+    "name": "chicago"
+}, {
+    "code": 3,
+    "name": "indiana"
+}, {
+    "code": 4,
+    "name": "indianapolis"
+}, {
+    "code": 3,
+    "name": "iowa"
+}, {
+    "code": 3,
+    "name": "kansas"
+}, {
+    "code": 3,
+    "name": "kentucky"
+}, {
+    "code": 3,
+    "name": "louisiana"
+}, {
+    "code": 4,
+    "name": "new-orleans"
+}, {
+    "code": 3,
+    "name": "maine"
+}, {
+    "code": 3,
+    "name": "maryland"
+}, {
+    "code": 4,
+    "name": "baltimore"
+}, {
+    "code": 3,
+    "name": "massachusetts"
+}, {
+    "code": 4,
+    "name": "boston"
+}, {
+    "code": 3,
+    "name": "michigan"
+}, {
+    "code": 4,
+    "name": "detroit"
+}, {
+    "code": 3,
+    "name": "minnesota"
+}, {
+    "code": 4,
+    "name": "minneapolis"
+}, {
+    "code": 3,
+    "name": "mississippi"
+}, {
+    "code": 3,
+    "name": "missouri"
+}, {
+    "code": 4,
+    "name": "kansas-city"
+}, {
+    "code": 4,
+    "name": "st-louis"
+}, {
+    "code": 3,
+    "name": "montana"
+}, {
+    "code": 3,
+    "name": "nebraska"
+}, {
+    "code": 3,
+    "name": "nevada"
+}, {
+    "code": 3,
+    "name": "new-hampshire"
+}, {
+    "code": 3,
+    "name": "new-jersey"
+}, {
+    "code": 3,
+    "name": "new-mexico"
+}, {
+    "code": 3,
+    "name": "new-york"
+}, {
+    "code": 4,
+    "name": "buffalo"
+}, {
+    "code": 4,
+    "name": "new-york-city"
+}, {
+    "code": 3,
+    "name": "north-carolina"
+}, {
+    "code": 3,
+    "name": "north-dakota"
+}, {
+    "code": 3,
+    "name": "ohio"
+}, {
+    "code": 4,
+    "name": "cincinnati"
+}, {
+    "code": 4,
+    "name": "cleveland"
+}, {
+    "code": 3,
+    "name": "oklahoma"
+}, {
+    "code": 3,
+    "name": "oregon"
+}, {
+    "code": 3,
+    "name": "pennsylvania"
+}, {
+    "code": 4,
+    "name": "philadelphia"
+}, {
+    "code": 4,
+    "name": "pittsburgh"
+}, {
+    "code": 3,
+    "name": "rhode-island"
+}, {
+    "code": 3,
+    "name": "south-carolina"
+}, {
+    "code": 3,
+    "name": "south-dakota"
+}, {
+    "code": 3,
+    "name": "tennessee"
+}, {
+    "code": 3,
+    "name": "texas"
+}, {
+    "code": 4,
+    "name": "dallas"
+}, {
+    "code": 4,
+    "name": "houston"
+}, {
+    "code": 3,
+    "name": "utah"
+}, {
+    "code": 3,
+    "name": "vermont"
+}, {
+    "code": 3,
+    "name": "virginia"
+}, {
+    "code": 3,
+    "name": "washington"
+}, {
+    "code": 4,
+    "name": "seattle"
+}, {
+    "code": 4,
+    "name": "washington-dc"
+}, {
+    "code": 3,
+    "name": "west-virginia"
+}, {
+    "code": 3,
+    "name": "wisconsin"
+}, {
+    "code": 4,
+    "name": "green-bay"
+}, {
+    "code": 4,
+    "name": "milwaukee"
+}, {
+    "code": 3,
+    "name": "wyoming"
+}, {
+    "code": 0,
+    "name": "amish-and-mennonite"
+}, {
+    "code": 0,
+    "name": "cajun-and-creole"
+}, {
+    "code": 0,
+    "name": "jewish"
+}, {
+    "code": 0,
+    "name": "new-england"
+}, {
+    "code": 0,
+    "name": "soul-food"
+}, {
+    "code": 0,
+    "name": "southern"
+}, {
+    "code": 0,
+    "name": "appetizers"
+}, {
+    "code": 0,
+    "name": "bread"
+}, {
+    "code": 0,
+    "name": "breakfast-and-brunch"
+}, {
+    "code": 0,
+    "name": "desserts"
+}, {
+    "code": 0,
+    "name": "drinks"
+}, {
+    "code": 0,
+    "name": "main-dishes"
+}, {
+    "code": 0,
+    "name": "beef"
+}, {
+    "code": 0,
+    "name": "chicken"
+}, {
+    "code": 0,
+    "name": "pork"
+}, {
+    "code": 0,
+    "name": "seafood"
+}, {
+    "code": 0,
+    "name": "side-dishes"
+}, {
+    "code": 0,
+    "name": "soups-and-stews"
+}, {
+    "code": 0,
+    "name": "tex-mex"
+}, {
+    "code": 0,
+    "name": "world-cuisine"
+}, {
+    "code": 1,
+    "name": "african"
+}, {
+    "code": 5,
+    "name": "north-african"
+}, {
+    "code": 2,
+    "name": "egyptian"
+}, {
+    "code": 2,
+    "name": "moroccan"
+}, {
+    "code": 5,
+    "name": "east-african"
+}, {
+    "code": 2,
+    "name": "south-african"
+}, {
+    "code": 1,
+    "name": "asian"
+}, {
+    "code": 2,
+    "name": "indian"
+}, {
+    "code": 0,
+    "name": "curry"
+}, {
+    "code": 0,
+    "name": "rice"
+}, {
+    "code": 0,
+    "name": "vegetarian"
+}, {
+    "code": 2,
+    "name": "chinese"
+}, {
+    "code": 2,
+    "name": "thai"
+}, {
+    "code": 0,
+    "name": "pad-thai"
+}, {
+    "code": 2,
+    "name": "japanese"
+}, {
+    "code": 0,
+    "name": "sushi"
+}, {
+    "code": 2,
+    "name": "filipino"
+}, {
+    "code": 2,
+    "name": "korean"
+}, {
+    "code": 0,
+    "name": "bulgogi"
+}, {
+    "code": 0,
+    "name": "kalbi"
+}, {
+    "code": 2,
+    "name": "bangladeshi"
+}, {
+    "code": 2,
+    "name": "pakistani"
+}, {
+    "code": 2,
+    "name": "indonesian"
+}, {
+    "code": 2,
+    "name": "malaysian"
+}, {
+    "code": 2,
+    "name": "vietnamese"
+}, {
+    "code": 6,
+    "name": "australian-and-new-zealander"
+}, {
+    "code": 0,
+    "name": "occasions"
+}, {
+    "code": 2,
+    "name": "canadian"
+}, {
+    "code": 0,
+    "name": "allrecipes-allstars"
+}, {
+    "code": 0,
+    "name": "canada-day"
+}, {
+    "code": 0,
+    "name": "grey-cup"
+}, {
+    "code": 3,
+    "name": "quebec"
+}, {
+    "code": 4,
+    "name": "toronto"
+}, {
+    "code": 4,
+    "name": "vancouver"
+}, {
+    "code": 1,
+    "name": "european"
+}, {
+    "code": 2,
+    "name": "austrian"
+}, {
+    "code": 2,
+    "name": "belgian"
+}, {
+    "code": 2,
+    "name": "dutch"
+}, {
+    "code": 5,
+    "name": "eastern-european"
+}, {
+    "code": 2,
+    "name": "czech"
+}, {
+    "code": 2,
+    "name": "hungarian"
+}, {
+    "code": 2,
+    "name": "polish"
+}, {
+    "code": 2,
+    "name": "russian"
+}, {
+    "code": 2,
+    "name": "french"
+}, {
+    "code": 0,
+    "name": "french-bread"
+}, {
+    "code": 2,
+    "name": "german"
+}, {
+    "code": 2,
+    "name": "greek"
+}, {
+    "code": 0,
+    "name": "salads"
+}, {
+    "code": 2,
+    "name": "italian"
+}, {
+    "code": 0,
+    "name": "authentic"
+}, {
+    "code": 2,
+    "name": "turkey"
+}, {
+    "code": 2,
+    "name": "portuguese"
+}, {
+    "code": 5,
+    "name": "scandinavian"
+}, {
+    "code": 2,
+    "name": "danish"
+}, {
+    "code": 2,
+    "name": "finnish"
+}, {
+    "code": 2,
+    "name": "norwegian"
+}, {
+    "code": 2,
+    "name": "swedish"
+}, {
+    "code": 2,
+    "name": "spanish"
+}, {
+    "code": 0,
+    "name": "paella"
+}, {
+    "code": 2,
+    "name": "swiss"
+}, {
+    "code": 6,
+    "name": "uk-and-ireland"
+}, {
+    "code": 2,
+    "name": "english"
+}, {
+    "code": 2,
+    "name": "irish"
+}, {
+    "code": 2,
+    "name": "scottish"
+}, {
+    "code": 0,
+    "name": "burns-night"
+}, {
+    "code": 0,
+    "name": "guy-fawkes-night"
+}, {
+    "code": 0,
+    "name": "stir-up-sunday"
+}, {
+    "code": 0,
+    "name": "hogmanay"
+}, {
+    "code": 0,
+    "name": "boxing-day"
+}, {
+    "code": 2,
+    "name": "welsh"
+}, {
+    "code": 5,
+    "name": "latin-american"
+}, {
+    "code": 0,
+    "name": "caribbean"
+}, {
+    "code": 2,
+    "name": "cuban"
+}, {
+    "code": 2,
+    "name": "jamaican"
+}, {
+    "code": 2,
+    "name": "puerto-rican"
+}, {
+    "code": 2,
+    "name": "mexican"
+}, {
+    "code": 0,
+    "name": "casserole"
+}, {
+    "code": 0,
+    "name": "enchiladas"
+}, {
+    "code": 0,
+    "name": "tacos"
+}, {
+    "code": 0,
+    "name": "fish"
+}, {
+    "code": 0,
+    "name": "burritos"
+}, {
+    "code": 0,
+    "name": "chile-rellenos"
+}, {
+    "code": 0,
+    "name": "fajitas"
+}, {
+    "code": 0,
+    "name": "mexican-lasagna"
+}, {
+    "code": 0,
+    "name": "tamales"
+}, {
+    "code": 0,
+    "name": "quesadillas"
+}, {
+    "code": 0,
+    "name": "beans"
+}, {
+    "code": 2,
+    "name": "chili"
+}, {
+    "code": 5,
+    "name": "south-american"
+}, {
+    "code": 2,
+    "name": "argentinian"
+}, {
+    "code": 2,
+    "name": "brazilian"
+}, {
+    "code": 2,
+    "name": "chilean"
+}, {
+    "code": 2,
+    "name": "colombian"
+}, {
+    "code": 2,
+    "name": "peruvian"
+}, {
+    "code": 5,
+    "name": "middle-eastern"
+}, {
+    "code": 2,
+    "name": "israeli"
+}, {
+    "code": 2,
+    "name": "lebanese"
+}, {
+    "code": 5,
+    "name": "persian"
+}, {
+    "code": 2,
+    "name": "turkish"
+}]

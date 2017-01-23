@@ -1,0 +1,599 @@
+[
+    {
+        "us-recipes": 2
+    },
+    {
+        "us-recipes-by-state": 0
+    },
+    {
+        "alabama": 3
+    },
+    {
+        "alaska": 3
+    },
+    {
+        "arizona": 3
+    },
+    {
+        "arkansas": 3
+    },
+    {
+        "california": 4
+    },
+    {
+        "san-francisco": 4
+    },
+    {
+        "san-diego": 4
+    },
+    {
+        "los-angeles": 4
+    },
+    {
+        "oakland": 4
+    },
+    {
+        "colorado": 3
+    },
+    {
+        "connecticut": 3
+    },
+    {
+        "delaware": 3
+    },
+    {
+        "florida": 3
+    },
+    {
+        "miami": 4
+    },
+    {
+        "tampa-bay": 4
+    },
+    {
+        "georgia": 4
+    },
+    {
+        "atlanta": 4
+    },
+    {
+        "hawaii": 3
+    },
+    {
+        "idaho": 3
+    },
+    {
+        "illinois": 3
+    },
+    {
+        "chicago": 4
+    },
+    {
+        "indiana": 3
+    },
+    {
+        "indianapolis": 4
+    },
+    {
+        "iowa": 3
+    },
+    {
+        "kansas": 3
+    },
+    {
+        "kentucky": 3
+    },
+    {
+        "louisiana": 3
+    },
+    {
+        "new-orleans": 4
+    },
+    {
+        "maine": 3
+    },
+    {
+        "maryland": 3
+    },
+    {
+        "baltimore": 4
+    },
+    {
+        "massachusetts": 3
+    },
+    {
+        "boston": 4
+    },
+    {
+        "michigan": 3
+    },
+    {
+        "detroit": 4
+    },
+    {
+        "minnesota": 3
+    },
+    {
+        "minneapolis": 4
+    },
+    {
+        "mississippi": 3
+    },
+    {
+        "missouri": 3
+    },
+    {
+        "kansas-city": 4
+    },
+    {
+        "st-louis": 4
+    },
+    {
+        "montana": 3
+    },
+    {
+        "nebraska": 3
+    },
+    {
+        "nevada": 3
+    },
+    {
+        "new-hampshire": 3
+    },
+    {
+        "new-jersey": 3
+    },
+    {
+        "new-mexico": 3
+    },
+    {
+        "new-york": 3
+    },
+    {
+        "buffalo": 4
+    },
+    {
+        "new-york-city": 4
+    },
+    {
+        "north-carolina": 3
+    },
+    {
+        "north-dakota": 3
+    },
+    {
+        "ohio": 3
+    },
+    {
+        "cincinnati": 4
+    },
+    {
+        "cleveland": 4
+    },
+    {
+        "oklahoma": 3
+    },
+    {
+        "oregon": 3
+    },
+    {
+        "pennsylvania": 3
+    },
+    {
+        "philadelphia": 4
+    },
+    {
+        "pittsburgh": 4
+    },
+    {
+        "rhode-island": 3
+    },
+    {
+        "south-carolina": 3
+    },
+    {
+        "south-dakota": 3
+    },
+    {
+        "tennessee": 3
+    },
+    {
+        "texas": 3
+    },
+    {
+        "dallas": 4
+    },
+    {
+        "houston": 4
+    },
+    {
+        "utah": 3
+    },
+    {
+        "vermont": 3
+    },
+    {
+        "virginia": 3
+    },
+    {
+        "washington": 3
+    },
+    {
+        "seattle": 4
+    },
+    {
+        "washington-dc": 4
+    },
+    {
+        "west-virginia": 3
+    },
+    {
+        "wisconsin": 3
+    },
+    {
+        "green-bay": 4
+    },
+    {
+        "milwaukee": 4
+    },
+    {
+        "wyoming": 3
+    },
+    {
+        "amish-and-mennonite": 0
+    },
+    {
+        "cajun-and-creole": 0
+    },
+    {
+        "jewish": 0
+    },
+    {
+        "new-england": 0
+    },
+    {
+        "soul-food": 0
+    },
+    {
+        "southern": 0
+    },
+    {
+        "appetizers": 0
+    },
+    {
+        "bread": 0
+    },
+    {
+        "breakfast-and-brunch": 0
+    },
+    {
+        "desserts": 0
+    },
+    {
+        "drinks": 0
+    },
+    {
+        "main-dishes": 0
+    },
+    {
+        "beef": 0
+    },
+    {
+        "chicken": 0
+    },
+    {
+        "pork": 0
+    },
+    {
+        "seafood": 0
+    },
+    {
+        "side-dishes": 0
+    },
+    {
+        "soups-and-stews": 0
+    },
+    {
+        "tex-mex": 0
+    },
+    {
+        "world-cuisine": 0
+    },
+    {
+        "african": 1
+    },
+    {
+        "north-african": 5
+    },
+    {
+        "egyptian": 2
+    },
+    {
+        "moroccan": 2
+    },
+    {
+        "east-african": 5
+    },
+    {
+        "south-african": 2
+    },
+    {
+        "asian": 1
+    },
+    {
+        "indian": 2
+    },
+    {
+        "curry": 0
+    },
+    {
+        "rice": 0
+    },
+    {
+        "vegetarian": 0
+    },
+    {
+        "chinese": 2
+    },
+    {
+        "thai": 2
+    },
+    {
+        "pad-thai": 0
+    },
+    {
+        "japanese": 2
+    },
+    {
+        "sushi": 0
+    },
+    {
+        "filipino": 2
+    },
+    {
+        "korean": 2
+    },
+    {
+        "bulgogi": 0
+    },
+    {
+        "kalbi": 0
+    },
+    {
+        "bangladeshi": 2
+    },
+    {
+        "pakistani": 2
+    },
+    {
+        "indonesian": 2
+    },
+    {
+        "malaysian": 2
+    },
+    {
+        "vietnamese": 2
+    },
+    {
+        "australian-and-new-zealander": 6
+    },
+    {
+        "occasions": 0
+    },
+    {
+        "canadian": 2
+    },
+    {
+        "allrecipes-allstars": 0
+    },
+    {
+        "canada-day": 0
+    },
+    {
+        "grey-cup": 0
+    },
+    {
+        "quebec": 3
+    },
+    {
+        "toronto": 4
+    },
+    {
+        "vancouver": 4
+    },
+    {
+        "european": 1
+    },
+    {
+        "austrian": 2
+    },
+    {
+        "belgian": 2
+    },
+    {
+        "dutch": 2
+    },
+    {
+        "eastern-european": 5
+    },
+    {
+        "czech": 2
+    },
+    {
+        "hungarian": 2
+    },
+    {
+        "polish": 2
+    },
+    {
+        "russian": 2
+    },
+    {
+        "french": 2
+    },
+    {
+        "french-bread": 0
+    },
+    {
+        "german": 2
+    },
+    {
+        "greek": 2
+    },
+    {
+        "salads": 0
+    },
+    {
+        "italian": 2
+    },
+    {
+        "authentic": 0
+    },
+    {
+        "turkey": 2
+    },
+    {
+        "portuguese": 2
+    },
+    {
+        "scandinavian": 5
+    },
+    {
+        "danish": 2
+    },
+    {
+        "finnish": 2
+    },
+    {
+        "norwegian": 2
+    },
+    {
+        "swedish": 2
+    },
+    {
+        "spanish": 2
+    },
+    {
+        "paella": 0
+    },
+    {
+        "swiss": 2
+    },
+    {
+        "uk-and-ireland": 6
+    },
+    {
+        "english": 2
+    },
+    {
+        "irish": 2
+    },
+    {
+        "scottish": 2
+    },
+    {
+        "burns-night": 0
+    },
+    {
+        "guy-fawkes-night": 0
+    },
+    {
+        "stir-up-sunday": 0
+    },
+    {
+        "hogmanay": 0
+    },
+    {
+        "boxing-day": 0
+    },
+    {
+        "welsh": 2
+    },
+    {
+        "latin-american": 5
+    },
+    {
+        "caribbean": 0
+    },
+    {
+        "cuban": 2
+    },
+    {
+        "jamaican": 2
+    },
+    {
+        "puerto-rican": 2
+    },
+    {
+        "mexican": 2
+    },
+    {
+        "casserole": 0
+    },
+    {
+        "enchiladas": 0
+    },
+    {
+        "tacos": 0
+    },
+    {
+        "fish": 0
+    },
+    {
+        "burritos": 0
+    },
+    {
+        "chile-rellenos": 0
+    },
+    {
+        "fajitas": 0
+    },
+    {
+        "mexican-lasagna": 0
+    },
+    {
+        "tamales": 0
+    },
+    {
+        "quesadillas": 0
+    },
+    {
+        "beans": 0
+    },
+    {
+        "chili": 2
+    },
+    {
+        "south-american": 5
+    },
+    {
+        "argentinian": 2
+    },
+    {
+        "brazilian": 2
+    },
+    {
+        "chilean": 2
+    },
+    {
+        "colombian": 2
+    },
+    {
+        "peruvian": 2
+    },
+    {
+        "middle-eastern": 5
+    },
+    {
+        "israeli": 2
+    },
+    {
+        "lebanese": 2
+    },
+    {
+        "persian": 5
+    },
+    {
+        "turkish": 2
+    }
+]
