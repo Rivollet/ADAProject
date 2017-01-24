@@ -1,4 +1,7 @@
 import pandas as pd
+import json
+
+# contains functions to do aggregations on mongodb database
 
 
 def group_and_get_aggregate_of_field(collection, group_by_field_address, aggregate_field_address, 
@@ -78,38 +81,25 @@ def group_and_get_aggregate_of_field(collection, group_by_field_address, aggrega
     
     # avoid loosing the data
     return list(results)
-
-
-
-def showFields(recipeObject, rowPrefix = '> '):
-    # This methods recursively displays all fields in the dict structure (possibly dict of dicts of dicts ...)
-    # row prefix is what appears before printing key:value
-    # used to display a recipe
-    for key, value in recipeObject.items():
-        if isinstance(value, dict):
-            print("{}{}".format(rowPrefix, key))
-            showFields(value, rowPrefix = (rowPrefix + '->-'))
-        else:
-            valueToShow = "{}".format(value)
-            if len(valueToShow) > 20:
-                valueToShow = valueToShow[:20] + "..."
-            print("{}{}: {}".format(rowPrefix, key, valueToShow))
             
             
-def getAllDataframes(collection, groupBysToQuery, fieldArgumentsToQuery, dataframeNames):
-    # returns a dict of dataframes for each distinct groupBy
-    # merges all aggregations per groupBy
-    # dict keys are 'dataframeNames', same order as 'groupBysToQuery'
+def get_dataframe_per_groupby(collection,  groupBy_fields, aggregation_fields, dataframe_names):
+    # computes all aggregations specified in aggregation_fields per entry in groupBy_fields
+    # merges all aggregations per entry in groupBy_fields into a single dataframe
+    # returns a dict of dataframes for each entry in groupBy_fields
+    # dict keys are 'dataframeNames', same order as 'groupBy_fields'
     
+    # note: the aggregation can also be done by a combined query, i.e. computing several values for each group
+    # for simplicity, we query the database here separately for each aggregate value to compute
     
     allDfs = dict()
-    totalNbQueries = len(groupBysToQuery) * len(fieldArgumentsToQuery)
+    totalNbQueries = len(groupBy_fields) * len(aggregation_fields)
     i = 1
-    for dataframeDictKey, groupByArguments in zip(dataframeNames, groupBysToQuery):
+    for dataframeDictKey, groupByArguments in zip(dataframe_names, groupBy_fields):
         df = None
         groupByColumnName = groupByArguments['group_by_field_output_name']
 
-        for fieldArguments in fieldArgumentsToQuery:
+        for fieldArguments in aggregation_fields:
             allArguments = dict(groupByArguments, **fieldArguments) # merge both dicts
             print('Query {}/{} with arguments: {}'.format(i, totalNbQueries, allArguments))
             results = group_and_get_aggregate_of_field(collection, **allArguments)
@@ -137,10 +127,10 @@ def getAllDataframes(collection, groupBysToQuery, fieldArgumentsToQuery, datafra
     return allDfs
 
 
-import json
 
 def write_dataframes_to_json(json_filename, allDataframes):
     # writes dict of dataframes to file
+    # assumes indices are unique: TODO: remove below orient='index'
     with open(json_filename, 'w') as file:
         # indent = spaces per tab for pretty printing
         json.dump(allDataframes, file, indent=4,
@@ -155,17 +145,32 @@ def write_dataframes_to_json(json_filename, allDataframes):
 #    return allDataframes
 
 
-def get_all_field_addresses(myObject, keyPrefix = "$", shortenLongStrings = True):
-    # This methods recursively finds all keys and converts them to a string to see what we can aggregate over
+def show_fields(recipeObject, rowPrefix = '> '):
+    # recursively displays all fields in the dict structure (possibly dict of dicts of dicts ...)
+    # row prefix is what appears before printing key:value
+    # used to display a recipe
+    for key, value in recipeObject.items():
+        if isinstance(value, dict):
+            print("{}{}".format(rowPrefix, key))
+            show_fields(value, rowPrefix = (rowPrefix + '->-'))
+        else:
+            valueToShow = "{}".format(value)
+            if len(valueToShow) > 20:
+                valueToShow = valueToShow[:20] + "..."
+            print("{}{}: {}".format(rowPrefix, key, valueToShow))
+            
+
+def get_all_field_addresses_with_description(myObject, keyPrefix = "$", shortenLongStrings = True):
+    # recursively finds all keys and converts them to a string to see what we can aggregate over
     # e.g. with group_and_get_aggregate_of_field, getAllDataframes 
     # also provides examples of what is in the fields
     # limits strings to 20 characters (+3) if shortenLongStrings is True
     
-    allKeysWithDescription = dict()
+    all_keys_with_description = dict()
     for key, value in myObject.items():
         if isinstance(value, dict):
-            newKeys = get_all_field_addresses(value, keyPrefix=keyPrefix + key + ".", shortenLongStrings=shortenLongStrings)
-            allKeysWithDescription.update(newKeys)
+            newKeys = get_all_field_addresses_with_description(value, keyPrefix=keyPrefix + key + ".", shortenLongStrings=shortenLongStrings)
+            all_keys_with_description.update(newKeys)
             
         else:
             fullKey = keyPrefix + key
@@ -173,6 +178,19 @@ def get_all_field_addresses(myObject, keyPrefix = "$", shortenLongStrings = True
             valuesToShow = "{}".format(value)
             if shortenLongStrings and (len(valuesToShow) > 20):
                 valuesToShow = valuesToShow[:20] + "..."
-            allKeysWithDescription[fullKey] = valuesToShow
+            all_keys_with_description[fullKey] = valuesToShow
     
-    return allKeysWithDescription # sort
+    return all_keys_with_description
+
+
+def is_number(myStr):
+    # str as input, returns true if is int or float
+    try:
+        float(myStr)
+        return True
+    except ValueError:
+        return False
+    
+def make_column_name(myName):
+    # creates a name inspired from myName removing leading '$' sign (for mongodb) and '.' because of Pandas
+    return myName[1:].replace('.', '_') 
