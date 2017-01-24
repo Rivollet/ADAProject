@@ -1,0 +1,102 @@
+{
+    "2": {
+        "index": 0,
+        "nutrition": "nutrition_carbohydrates_unit",
+        "observed units": "g"
+    },
+    "15": {
+        "index": 0,
+        "nutrition": "nutrition_protein_unit",
+        "observed units": "g"
+    },
+    "11": {
+        "index": 0,
+        "nutrition": "nutrition_caloriesFromFat_unit",
+        "observed units": "kcal"
+    },
+    "3": {
+        "index": 0,
+        "nutrition": "nutrition_sodium_unit",
+        "observed units": "mg"
+    },
+    "6": {
+        "index": 0,
+        "nutrition": "nutrition_vitaminA_unit",
+        "observed units": "IU"
+    },
+    "14": {
+        "index": 0,
+        "nutrition": "nutrition_calories_unit",
+        "observed units": "kcal"
+    },
+    "18": {
+        "index": 0,
+        "nutrition": "nutrition_folate_unit",
+        "observed units": "mcg"
+    },
+    "5": {
+        "index": 0,
+        "nutrition": "nutrition_thiamin_unit",
+        "observed units": "mg"
+    },
+    "1": {
+        "index": 0,
+        "nutrition": "nutrition_saturatedFat_unit",
+        "observed units": "g"
+    },
+    "19": {
+        "index": 0,
+        "nutrition": "nutrition_cholesterol_unit",
+        "observed units": "mg"
+    },
+    "4": {
+        "index": 0,
+        "nutrition": "nutrition_sugars_unit",
+        "observed units": "g"
+    },
+    "10": {
+        "index": 0,
+        "nutrition": "nutrition_vitaminC_unit",
+        "observed units": "mg"
+    },
+    "16": {
+        "index": 0,
+        "nutrition": "nutrition_niacin_unit",
+        "observed units": "mg"
+    },
+    "9": {
+        "index": 0,
+        "nutrition": "nutrition_fat_unit",
+        "observed units": "g"
+    },
+    "13": {
+        "index": 0,
+        "nutrition": "nutrition_magnesium_unit",
+        "observed units": "mg"
+    },
+    "12": {
+        "index": 0,
+        "nutrition": "nutrition_calcium_unit",
+        "observed units": "mg"
+    },
+    "8": {
+        "index": 0,
+        "nutrition": "nutrition_vitaminB6_unit",
+        "observed units": "mg"
+    },
+    "7": {
+        "index": 0,
+        "nutrition": "nutrition_iron_unit",
+        "observed units": "mg"
+    },
+    "0": {
+        "index": 0,
+        "nutrition": "nutrition_potassium_unit",
+        "observed units": "mg"
+    },
+    "17": {
+        "index": 0,
+        "nutrition": "nutrition_fiber_unit",
+        "observed units": "g"
+    }
+}
