@@ -1,3 +1,6 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
         "type": "Feature",
         "properties": {
             "scalerank": 1,

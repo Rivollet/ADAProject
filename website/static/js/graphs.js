@@ -1,6 +1,6 @@
 var q = queue()
     .defer(d3.json, "data/fullAggregatedData.json")
-    .defer(d3.json, "static/geojson/custom.geo.json")
+    .defer(d3.json, "static/geojson/custom.geoold.json")
     .defer(d3.json, "static/geojson/us-states.json")
     .await(makeGraphs);
 
@@ -121,21 +121,11 @@ function makeGraphs(error, init_data, geo_countries, geo_states) {
         .colors(['#DDDDDD', "#E2F2FF", "#C4E4FF", "#9ED2FF", "#81C5FF", "#6BBAFF", "#51AEFF", "#36A2FF", "#1E96FF", "#0089FF", "#0061B5"])
         //.colors(["#FFEDED", "#FFD5D5", "#FFBEBE", "#FFA6A6", "#FF8F8F", "#FF7777", "#FF6060", "#FF4848", "#FF3030", "#FF1919"])
         .colorDomain([0, total_max])
-        .colorAccessor(function(d, i) {
-            console.log(d);
-            console.log(i);
-            return d;
-        })
         .valueAccessor(function(d) {
             return d.value.avg;
         })
         .overlayGeoJson(geo_map["features"], geo_type, map_bijection)
-        .projection(projection)
-        .title(function(p) {
-            return "State: " + p["key"] +
-                "\n" +
-                "Total: " + Math.round(p["value"]) + " $";
-        })
+        .projection(projection);
 
     dc.renderAll();
 
