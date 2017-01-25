@@ -1,6 +1,6 @@
 var q = queue()
     .defer(d3.json, "data/data_mock.json")
-    .defer(d3.json, "static/geojson/countries.json")
+    .defer(d3.json, "static/geojson/custom.geo.json")
     .defer(d3.json, "static/geojson/us-states.json")
     .await(makeGraphs);
 
@@ -18,11 +18,14 @@ $(window).resize(function() {
 });
 
 /* Charts */
-function makeGraphs(error, data, geo_countries, geo_states) {
+function makeGraphs(error, init_data, geo_countries, geo_states) {
 
   var geo_type = getGeoType();
   var geo_map = null;
-  var projection = null
+  var projection = null;
+  var map_bijection = null;
+
+  console.log(geo_type);
 
   var width_map = getWidth();
   var height_map = getWidth() / 1.8;
@@ -30,22 +33,26 @@ function makeGraphs(error, data, geo_countries, geo_states) {
 
   if (geo_type === "country") {
     geo_map = geo_countries;
+    data = init_data['per_country'];
     projection = d3.geo.mercator().scale((width_map) / (2 * Math.PI)).translate([width_map / 2, height_map / 2]);
+    map_bijection = function (d) {return d.properties.wb_a3;};
   }
   else if (geo_type === "state") {
     geo_map = geo_states;
+    data = init_data['per_state'];
     projection = d3.geo.albersUsa().scale(width_map).translate([width_map / 2, height_map / 2]);
+    map_bijection = function (d) {return d.properties.name;};
   }
 
   var ndx = crossfilter(data);
 
-  var stateDim = ndx.dimension(function(d) { return d['geo']; });
+  var stateDim = ndx.dimension(function(d) { return d['geo_identifier']; });
   console.log(stateDim);
   var totalAmountByState = stateDim.group().reduceSum(function(d) {
-		return d["calories"];
+		return d["avg_nutrition_calories_amount"];
 	});
 
-  var total = ndx.groupAll().reduceSum(function(d) {return d["calories"];});
+  var total = ndx.groupAll().reduceSum(function(d) {return d["avg_nutrition_calories_amount"];});
 
   var max_state = totalAmountByState.top(1)[0].value;
   console.log(ndx.size())
@@ -64,10 +71,9 @@ function makeGraphs(error, data, geo_countries, geo_states) {
     .dimension(stateDim)
     .group(totalAmountByState)
     .colors(["#E2F2FF", "#C4E4FF", "#9ED2FF", "#81C5FF", "#6BBAFF", "#51AEFF", "#36A2FF", "#1E96FF", "#0089FF", "#0061B5"])
-    .colorDomain([0, max_state])
-    .overlayGeoJson(geo_map["features"], geo_type, function (d) {
-        return d.properties.name;
-    })
+    //.colors(["#FFEDED", "#FFD5D5", "#FFBEBE", "#FFA6A6", "#FF8F8F", "#FF7777", "#FF6060", "#FF4848", "#FF3030", "#FF1919"])
+    .colorDomain([1, max_state])
+    .overlayGeoJson(geo_map["features"], geo_type, map_bijection)
     .projection(projection)
     .title(function (p) {
         return "State: " + p["key"]
