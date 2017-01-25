@@ -1,19 +1,89 @@
-[{
-        "geo": "AZ",
-        "geo_type": 3,
-        "calories": 10
-    }, {
-        "geo": "CA",
-        "geo_type": 3,
-        "calories": 7
+{
+    "global": {
+        "Global aggregation": {
+            "avg_nutrition_niacin_amount": 6.5819486949,
+            "avg_servings": 10.2102573575,
+            "avg_submitter_personalRecipeSharedCount": 8.0709272257,
+            "avg_nutrition_fat_amount": 17.7817337376,
+            "avg_nutrition_magnesium_amount": 42.7467841021,
+            "avg_nutrition_vitaminA_amount": 1418.1540015684,
+            "avg_nutrition_vitaminB6_amount": 0.3188769283,
+            "avg_nutrition_fiber_amount": 3.1178096283,
+            "avg_similarRecipes_metaData_totalCount": 14.7297130895,
+            "avg_nutrition_saturatedFat_amount": 6.5396016803,
+            "avg_submitter_ratingsCount": 29.7984238394,
+            "avg_submitter_followersCount": 7870.611685753,
+            "avg_reviewCount": 77.7717029922,
+            "avg_cookMinutes": 41.1077453516,
+            "avg_submitter_reviewsCount": 23.1030045561,
+            "avg_nutrition_caloriesFromFat_amount": 160.0322171934,
+            "avg_nutrition_cholesterol_amount": 66.2203374766,
+            "avg_nutrition_carbohydrates_amount": 31.5380632211,
+            "avg_submitter_reciepesCount": 22.6657431351,
+            "avg_nutrition_calcium_amount": 114.9318745406,
+            "avg_nutrition_potassium_amount": 434.1991336157,
+            "avg_submitter_madeRecipesCount": 30.7689939663,
+            "avg_nutrition_folate_amount": 60.2745651289,
+            "avg_prepMinutes": 20.2409186061,
+            "avg_nutrition_protein_amount": 16.2278095183,
+            "avg_similarRecipes_metaData_pagesize": 14.7297130895,
+            "avg_similarRecipes_metaData_page": 1.0,
+            "nbRecipes": 16242,
+            "avg_nutrition_sodium_amount": 661.4516873115,
+            "avg_nutrition_vitaminC_amount": 18.3412098224,
+            "avg_ratingCount": 102.3711981283,
+            "avg_submitter_favoritesCount": 151.0502401182,
+            "avg_nutrition_calories_amount": 350.2467986302,
+            "avg_nutrition_thiamin_amount": 0.2271286606,
+            "avg_ratingAverage": 4.0803297995,
+            "avg_nutrition_sugars_amount": 9.8466210198,
+            "avg_nutrition_iron_amount": 2.6678069684,
+            "avg_submitter_followingCount": 0.0,
+            "avg_readyInMinutes": 157.1372367935
+        }
     },
-    {
-        "geo": "NV",
-        "geo_type": 3,
-        "calories": 7
+    "per_country": [{
+            "geo_identifier": "FRA",
+            "geo_name": "France",
+            "geo_country_in_base": "french",
+            "avg_nutrition_niacin_amount": 4.3299068037,
+            "avg_servings": 9.2592592593,
+            "nbRecipes": 398,
+            "avg_nutrition_calories_amount": 310.2467986302
+        }, {
+            "geo_identifier": "CHE",
+            "geo_name": "Switzerland",
+            "geo_country_in_base": "swiss",
+            "avg_nutrition_niacin_amount": 4.3299068037,
+            "avg_servings": 9.2592592593,
+            "nbRecipes": 398,
+            "avg_nutrition_calories_amount": 310.2467986302
+        },
+        {
+            "geo_identifier": "RUS",
+            "geo_name": "Russia",
+            "geo_country_in_base": "russian",
+            "avg_nutrition_niacin_amount": 4.3299068037,
+            "avg_servings": 9.2592592593,
+            "nbRecipes": 398,
+            "avg_nutrition_calories_amount": 310.2467986302
+        }
+    ],
+    "per_state": [{
+        "geo_identifier": "CA",
+        "geo_name": "France",
+        "geo_country_in_base": "french",
+        "avg_nutrition_niacin_amount": 4.3299068037,
+        "avg_servings": 9.2592592593,
+        "nbRecipes": 398,
+        "avg_nutrition_calories_amount": 310.2467986302
     }, {
-        "geo": "usa",
-        "geo_type": 2,
-        "calories": 7
-    }
-]
+        "geo_identifier": "WA",
+        "geo_name": "Switzerland",
+        "geo_country_in_base": "swiss",
+        "avg_nutrition_niacin_amount": 4.3299068037,
+        "avg_servings": 9.2592592593,
+        "nbRecipes": 398,
+        "avg_nutrition_calories_amount": 310.2467986302
+    }]
+}
