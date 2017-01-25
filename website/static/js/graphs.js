@@ -1,5 +1,5 @@
 var q = queue()
-    .defer(d3.json, "data/data_mock.json")
+    .defer(d3.json, "data/fullAggregatedData.json")
     .defer(d3.json, "static/geojson/custom.geo.json")
     .defer(d3.json, "static/geojson/us-states.json")
     .await(makeGraphs);
@@ -54,7 +54,7 @@ function makeGraphs(error, init_data, geo_countries, geo_states) {
     /* ===========================================================================
     Data dimension
     =========================================================================== */
-    melt_data = melt(data, ['geo_identifier', 'geo_name', 'geo_country_in_base', 'nbRecipes'], 'key', 'value');
+    melt_data = melt(data, ['geo_identifier', 'geo_name', 'geo_country_in_base', 'nbRecipes', 'database_name'], 'key', 'value');
     //console.log(melt_data);
     //var ndx = crossfilter(data);
     var ndx = crossfilter(melt_data);
@@ -72,9 +72,12 @@ function makeGraphs(error, init_data, geo_countries, geo_states) {
         //console.log(d);
         return d['value'];
     });
-    var totalAmountByState = geo_dim.group().reduceSum(function(d) {
-        //console.log(d);
-        return d["value"];
+    var total_by_geo = geo_dim.group().reduce(
+        reduceAddWeightedAvg2(filter, 'nbRecipes'),
+        reduceRemoveWeightedAvg2(filter, 'nbRecipes'),
+        reduceInitWeightedAvg2).order(function(d) {
+        //console.log(d)
+        return d.avg;
     });
 
     //console.log(totalAmountByState.all());
@@ -86,8 +89,9 @@ function makeGraphs(error, init_data, geo_countries, geo_states) {
         reduceRemoveWeightedAvg('avg_nutrition_calories_amount', 'nbRecipes'),
         reduceInitWeightedAvg);
 
-    var total_max = totalAmountByState.top(1)[0].value;
-    //console.log(totalAmountByState.top(10));
+    var total_max = total_by_geo.top(1)[0].value.avg;
+    //var total_min = total_by_geo.bottom(1)[0].value.avg;
+    //console.log(total_max);
 
     /* ===========================================================================
     Charts
@@ -113,10 +117,18 @@ function makeGraphs(error, init_data, geo_countries, geo_states) {
 
     usChart.width(width_map).height(height_map)
         .dimension(geo_dim)
-        .group(totalAmountByState)
-        .colors(["#E2F2FF", "#C4E4FF", "#9ED2FF", "#81C5FF", "#6BBAFF", "#51AEFF", "#36A2FF", "#1E96FF", "#0089FF", "#0061B5"])
+        .group(total_by_geo)
+        .colors(['#DDDDDD', "#E2F2FF", "#C4E4FF", "#9ED2FF", "#81C5FF", "#6BBAFF", "#51AEFF", "#36A2FF", "#1E96FF", "#0089FF", "#0061B5"])
         //.colors(["#FFEDED", "#FFD5D5", "#FFBEBE", "#FFA6A6", "#FF8F8F", "#FF7777", "#FF6060", "#FF4848", "#FF3030", "#FF1919"])
-        .colorDomain([1, total_max])
+        .colorDomain([0, total_max])
+        .colorAccessor(function(d, i) {
+            console.log(d);
+            console.log(i);
+            return d;
+        })
+        .valueAccessor(function(d) {
+            return d.value.avg;
+        })
         .overlayGeoJson(geo_map["features"], geo_type, map_bijection)
         .projection(projection)
         .title(function(p) {
