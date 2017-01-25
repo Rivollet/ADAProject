@@ -1,5 +1,5 @@
 import pandas as pd
-import json
+#import json
 
 # contains functions to do aggregations on mongodb database
 
@@ -128,22 +128,6 @@ def get_dataframe_per_groupby(collection,  groupBy_fields, aggregation_fields, d
 
 
 
-def write_dataframes_to_json(json_filename, allDataframes):
-    # writes dict of dataframes to file
-    # assumes indices are unique: TODO: remove below orient='index'
-    with open(json_filename, 'w') as file:
-        # indent = spaces per tab for pretty printing
-        json.dump(allDataframes, file, indent=4,
-                  default=lambda df: json.loads(df.to_json(orient='index'))) # default gets called when cannot be serialized
-    
-
-#def load_dataframes_from_json(json_filename):
-#    with open(json_filename, 'r') as file:
-#        # indent = spaces per tab for pretty printing
-#        allDataframes = json.load(file)#, object_hook=lambda myDict: pd.read_json(myDict))
-#     
-#    return allDataframes
-
 
 def show_fields(recipeObject, rowPrefix = '> '):
     # recursively displays all fields in the dict structure (possibly dict of dicts of dicts ...)
@@ -182,14 +166,6 @@ def get_all_field_addresses_with_description(myObject, keyPrefix = "$", shortenL
     
     return all_keys_with_description
 
-
-def is_number(myStr):
-    # str as input, returns true if is int or float
-    try:
-        float(myStr)
-        return True
-    except ValueError:
-        return False
     
 def make_column_name(myName):
     # creates a name inspired from myName removing leading '$' sign (for mongodb) and '.' because of Pandas
