@@ -1,0 +1,19 @@
+[{
+        "geo": "AZ",
+        "geo_type": 3,
+        "calories": 10
+    }, {
+        "geo": "CA",
+        "geo_type": 3,
+        "calories": 7
+    },
+    {
+        "geo": "NV",
+        "geo_type": 3,
+        "calories": 7
+    }, {
+        "geo": "usa",
+        "geo_type": 2,
+        "calories": 7
+    }
+]

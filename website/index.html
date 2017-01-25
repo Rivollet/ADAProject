@@ -13,12 +13,18 @@
 
 </head>
 
+<form id='geo_selection'>
+  <input type="radio" name="geo_selection" value="continent"> By Continents
+  <input type="radio" name="geo_selection" value="country" checked> By Countries
+  <input type="radio" name="geo_selection" value="state"> By US States
+</form>
+
 <body class="application">
 
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="./">Donorschoose Dashboard</a>
+          <a class="navbar-brand" href="./">ADA Recipe Project Dashboard</a>
         </div>
       </div>
     </div>
@@ -78,7 +84,7 @@
             <div class="chart-title">
               Distribution of Donations
             </div>
-            <div class="chart-stage">
+            <div class="chart-stage" id="map_container">
               <div id="us-chart"></div>
             </div>
           </div>
