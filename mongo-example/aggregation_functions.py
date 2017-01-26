@@ -92,6 +92,8 @@ def get_dataframe_per_groupby(collection,  groupBy_fields, aggregation_fields, d
     # note: the aggregation can also be done by a combined query, i.e. computing several values for each group
     # for simplicity, we query the database here separately for each aggregate value to compute
     
+    assert(len(dataframe_names) != len(groupBy_fields), 'must have same length')
+    
     allDfs = dict()
     totalNbQueries = len(groupBy_fields) * len(aggregation_fields)
     i = 1

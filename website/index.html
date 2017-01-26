@@ -13,22 +13,92 @@
 
 </head>
 
-<form id='geo_selection'>
-  <input type="radio" name="geo_selection" value="continent"> By Continents
-  <input type="radio" name="geo_selection" value="country" checked> By Countries
-  <input type="radio" name="geo_selection" value="state"> By US States
-</form>
 
 <body class="application">
 
-  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="./">ADA Recipe Project Dashboard</a>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="./">ADA Recipe Project Dashboard</a>
+            </div>
         </div>
-      </div>
     </div>
 
+    <form id='geo_selection'>
+        <input type="radio" name="geo_selection" value="continent"> By Continents
+        <input type="radio" name="geo_selection" value="country" checked> By Countries
+        <input type="radio" name="geo_selection" value="state"> By US States
+    </form>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="chart-wrapper">
+                    <div class="chart-title">
+                        Nutriments
+                    </div>
+                    <div class="chart-stage">
+                        <div id="resource-type-row-chart"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="chart-wrapper">
+                    <div class="chart-title">
+                        Geographic Distribution
+                    </div>
+                    <div class="chart-stage" id="map_container">
+                        <div id="us-chart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="chart-wrapper">
+                    <div class="chart-title">
+                        Total Donations in USD
+                    </div>
+                    <div class="chart-stage">
+                        <div id="total-donations-nd"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="chart-wrapper">
+                    <div class="chart-title">
+                        Total of ...
+                    </div>
+                    <div class="chart-stage">
+                        <div id="total-donations-nd"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="chart-wrapper">
+                    <div class="chart-title">
+                        Total of ...
+                    </div>
+                    <div class="chart-stage">
+                        <div id="total-donations-nd"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="chart-wrapper">
+                    <div class="chart-title">
+                        Total of ...
+                    </div>
+                    <div class="chart-stage">
+                        <div id="total-donations-nd"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--
     <div class="container-fluid">
 
       <div class="row">
@@ -36,21 +106,8 @@
         <div class="col-sm-6">
           <div class="row">
 
-            <!-- Time Chart -->
-            <div class="col-sm-12">
-              <div class="chart-wrapper">
-                <div class="chart-title">
-                  Number of Donations
-                </div>
-                <div class="chart-stage">
-                  <div id="time-chart"></div>
-                </div>
-              </div>
-            </div>
-            <!-- Time Chart -->
 
-            <!-- Resources Pie -->
-            <div class="col-sm-6">
+            <div class="col-sm-12">
               <div class="chart-wrapper">
                 <div class="chart-title">
                   Resources Type
@@ -60,25 +117,11 @@
                 </div>
               </div>
             </div>
-            <!-- Resources Pie -->
 
-            <!-- Poverty Pie -->
-            <div class="col-sm-6">
-              <div class="chart-wrapper">
-                <div class="chart-title">
-                  Poverty Level
-                </div>
-                <div class="chart-stage">
-                  <div id="poverty-level-row-chart"></div>
-                </div>
-              </div>
-            </div>
-            <!-- Poverty Pie -->
 
           </div>
         </div>
 
-        <!-- Map -->
         <div class="col-sm-6">
           <div class="chart-wrapper">
             <div class="chart-title">
@@ -89,9 +132,8 @@
             </div>
           </div>
         </div>
-        <!-- Map -->
 
-        <!-- Metric 1 -->
+
         <div class="col-sm-3">
           <div class="chart-wrapper">
             <div class="chart-title">
@@ -102,9 +144,7 @@
             </div>
           </div>
         </div>
-        <!-- Metric 1 -->
 
-        <!-- Metric 2 -->
         <div class="col-sm-3">
           <div class="chart-wrapper">
             <div class="chart-title">
@@ -115,30 +155,29 @@
             </div>
           </div>
         </div>
-        <!-- Metric 2 -->
+
 
       </div>
 
     </div>
 
       <hr>
-      <p class="small text-muted">Built with &#9829; by <a href="https://keen.io">Keen IO</a></p>
-
+-->
     </div>
 
-  <p>Work in progress ...</p>
 
+    <!-- JS Script -->
+    <script src="static/lib/js/jquery.min.js"></script>
+    <script src="static/lib/js/bootstrap.min.js"></script>
+    <script src="static/lib/js/crossfilter.js"></script>
+    <script src="static/lib/js/d3.js"></script>
+    <script src="static/lib/js/dc.js"></script>
+    <script src="static/lib/js/queue.js"></script>
+    <script src="static/lib/js/melt.js"></script>
 
-  <!-- JS Script -->
-  <script src="static/lib/js/jquery.min.js"></script>
-  <script src="static/lib/js/bootstrap.min.js"></script>
-  <script src="static/lib/js/crossfilter.js"></script>
-  <script src="static/lib/js/d3.js"></script>
-  <script src="static/lib/js/dc.js"></script>
-  <script src="static/lib/js/queue.js"></script>
-
-  <script src="static/lib/js/keen.min.js"></script>
-  <script src='static/js/graphs.js' type='text/javascript'></script>
+    <script src="static/lib/js/keen.min.js"></script>
+    <script src='static/js/custom_dc.js' type='text/javascript'></script>
+    <script src='static/js/graphs.js' type='text/javascript'></script>
 
 </body>
 

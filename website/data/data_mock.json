@@ -49,7 +49,7 @@
             "avg_nutrition_niacin_amount": 4.3299068037,
             "avg_servings": 9.2592592593,
             "nbRecipes": 398,
-            "avg_nutrition_calories_amount": 310.2467986302
+            "avg_nutrition_calories_amount": 110.2467986302
         }, {
             "geo_identifier": "CHE",
             "geo_name": "Switzerland",
@@ -65,7 +65,7 @@
             "geo_country_in_base": "russian",
             "avg_nutrition_niacin_amount": 4.3299068037,
             "avg_servings": 9.2592592593,
-            "nbRecipes": 398,
+            "nbRecipes": 1008,
             "avg_nutrition_calories_amount": 310.2467986302
         }
     ],
