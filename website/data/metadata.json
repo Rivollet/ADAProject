@@ -1,0 +1,214 @@
+{
+    "nutriment": {
+        "avg_nutrition_fat_amount": {
+            "name": "Fat",
+            "unit": "g",
+            "nutriment_chart": true
+        },
+        "avg_readyInMinutes": {
+            "name": "Ready In",
+            "unit": "min",
+            "nutriment_chart": false
+        },
+        "avg_submitter_personalRecipeSharedCount": {
+            "name": "avg_submitter_personalRecipeSharedCount",
+            "unit": null,
+            "nutriment_chart": false
+        },
+        "avg_nutrition_protein_amount": {
+            "name": "Protein",
+            "unit": "g",
+            "nutriment_chart": true
+        },
+        "avg_submitter_reviewsCount": {
+            "name": "avg_submitter_reviewsCount",
+            "unit": null,
+            "nutriment_chart": false
+        },
+        "avg_submitter_followersCount": {
+            "name": "avg_submitter_followersCount",
+            "unit": null,
+            "nutriment_chart": false
+        },
+        "avg_similarRecipes_metaData_page": {
+            "name": "avg_similarRecipes_metaData_page",
+            "unit": null,
+            "nutriment_chart": false
+        },
+        "avg_cookMinutes": {
+            "name": "Cook In",
+            "unit": "min",
+            "nutriment_chart": false
+        },
+        "avg_nutrition_vitaminA_amount": {
+            "name": "Vitamin A",
+            "unit": "IU",
+            "nutriment_chart": true
+        },
+        "avg_nutrition_niacin_amount": {
+            "name": "Niacin",
+            "unit": "mg",
+            "nutriment_chart": true
+        },
+        "avg_nutrition_potassium_amount": {
+            "name": "Potassium",
+            "unit": "mg",
+            "nutriment_chart": true
+        },
+        "avg_nutrition_calories_amount": {
+            "name": "Calories",
+            "unit": "kcal",
+            "nutriment_chart": true
+        },
+        "avg_prepMinutes": {
+            "name": "Prepared In",
+            "unit": "min",
+            "nutriment_chart": false
+        },
+        "avg_submitter_reciepesCount": {
+            "name": "avg_submitter_reciepesCount",
+            "unit": null,
+            "nutriment_chart": false
+        },
+        "avg_nutrition_saturatedFat_amount": {
+            "name": "Saturated Fat",
+            "unit": "g",
+            "nutriment_chart": true
+        },
+        "geo_name": {
+            "name": "geo_name",
+            "unit": null,
+            "nutriment_chart": false
+        },
+        "avg_nutrition_calcium_amount": {
+            "name": "Calcium",
+            "unit": "mg",
+            "nutriment_chart": true
+        },
+        "avg_nutrition_thiamin_amount": {
+            "name": "Thiamin",
+            "unit": "mg",
+            "nutriment_chart": true
+        },
+        "avg_ratingCount": {
+            "name": "avg_ratingCount",
+            "unit": null,
+            "nutriment_chart": false
+        },
+        "avg_similarRecipes_metaData_pagesize": {
+            "name": "avg_similarRecipes_metaData_pagesize",
+            "unit": null,
+            "nutriment_chart": false
+        },
+        "avg_nutrition_fiber_amount": {
+            "name": "Fiber",
+            "unit": "g",
+            "nutriment_chart": true
+        },
+        "avg_nutrition_sodium_amount": {
+            "name": "Sodium",
+            "unit": "mg",
+            "nutriment_chart": true
+        },
+        "avg_nutrition_sugars_amount": {
+            "name": "Sugars",
+            "unit": "g",
+            "nutriment_chart": true
+        },
+        "avg_ratingAverage": {
+            "name": "avg_ratingAverage",
+            "unit": null,
+            "nutriment_chart": false
+        },
+        "avg_nutrition_carbohydrates_amount": {
+            "name": "Carbohydrates",
+            "unit": "g",
+            "nutriment_chart": true
+        },
+        "nbRecipes": {
+            "name": "nbRecipes",
+            "unit": null,
+            "nutriment_chart": false
+        },
+        "avg_nutrition_folate_amount": {
+            "name": "Folate",
+            "unit": "mg",
+            "nutriment_chart": true
+        },
+        "avg_servings": {
+            "name": "avg_servings",
+            "unit": null,
+            "nutriment_chart": false
+        },
+        "geo_identifier": {
+            "name": "geo_identifier",
+            "unit": null,
+            "nutriment_chart": false
+        },
+        "avg_nutrition_cholesterol_amount": {
+            "name": "Cholesterol",
+            "unit": "mg",
+            "nutriment_chart": true
+        },
+        "avg_submitter_favoritesCount": {
+            "name": "avg_submitter_favoritesCount",
+            "unit": null,
+            "nutriment_chart": false
+        },
+        "avg_nutrition_vitaminC_amount": {
+            "name": "Vitamin C",
+            "unit": "mg",
+            "nutriment_chart": true
+        },
+        "avg_submitter_madeRecipesCount": {
+            "name": "avg_submitter_madeRecipesCount",
+            "unit": null,
+            "nutriment_chart": false
+        },
+        "avg_similarRecipes_metaData_totalCount": {
+            "name": "avg_similarRecipes_metaData_totalCount",
+            "unit": null,
+            "nutriment_chart": false
+        },
+        "avg_submitter_followingCount": {
+            "name": "avg_submitter_followingCount",
+            "unit": "g",
+            "nutriment_chart": false
+        },
+        "avg_nutrition_magnesium_amount": {
+            "name": "Magnesium",
+            "unit": "g",
+            "nutriment_chart": true
+        },
+        "avg_nutrition_iron_amount": {
+            "name": "Iron",
+            "unit": "g",
+            "nutriment_chart": true
+        },
+        "avg_submitter_ratingsCount": {
+            "name": "avg_submitter_ratingsCount",
+            "unit": "g",
+            "nutriment_chart": false
+        },
+        "avg_reviewCount": {
+            "name": "avg_reviewCount",
+            "unit": "g",
+            "nutriment_chart": false
+        },
+        "avg_nutrition_vitaminB6_amount": {
+            "name": "Vitamin B6",
+            "unit": "g",
+            "nutriment_chart": true
+        },
+        "database_name": {
+            "name": "database_name",
+            "unit": "g",
+            "nutriment_chart": false
+        },
+        "avg_nutrition_caloriesFromFat_amount": {
+            "name": "Calories From Fat",
+            "unit": "g",
+            "nutriment_chart": true
+        }
+    }
+}

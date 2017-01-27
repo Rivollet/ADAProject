@@ -2,6 +2,7 @@ var q = queue()
     .defer(d3.json, "data/fullAggregatedData.json")
     .defer(d3.json, "static/geojson/custom.geoold.json")
     .defer(d3.json, "static/geojson/us-states.json")
+    .defer(d3.json, 'data/metadata.json')
     .await(makeGraphs);
 
 /* Listeners */
@@ -18,7 +19,7 @@ $(window).resize(function() {
 });
 
 /* Charts */
-function makeGraphs(error, init_data, geo_countries, geo_states) {
+function makeGraphs(error, init_data, geo_countries, geo_states, metadata) {
 
     /* ===========================================================================
     Initialize
@@ -29,7 +30,7 @@ function makeGraphs(error, init_data, geo_countries, geo_states) {
     var map_bijection = null;
 
     var width_map = getWidth();
-    var height_map = getWidth() / 1.8;
+    var height_map = getWidth() / 1.5;
 
 
     /* ===========================================================================
@@ -44,10 +45,10 @@ function makeGraphs(error, init_data, geo_countries, geo_states) {
         };
     } else if (geo_type === "state") {
         geo_map = geo_states;
-        data = init_data['per_state'];
+        data = init_data['per_region'];
         projection = d3.geo.albersUsa().scale(width_map).translate([width_map / 2, height_map / 2]);
         map_bijection = function(d) {
-            return d.properties.name;
+            return d.id;
         };
     }
 
@@ -58,20 +59,27 @@ function makeGraphs(error, init_data, geo_countries, geo_states) {
     //console.log(melt_data);
     //var ndx = crossfilter(data);
     var ndx = crossfilter(melt_data);
+    var global = init_data.global['Global aggregation'];
 
     var geo_dim = ndx.dimension(function(d) {
         return d['geo_identifier'];
     });
-    var key_dim = ndx.dimension(function(d) {
+    var nutriment_dim = ndx.dimension(function(d) {
         return d['key'];
     });
-
+    //nutriment_dim.filterFunction(nutriment_filter_dim(metadata));
     var filter = 'avg_nutrition_calories_amount';
 
-    var key_group = key_dim.group().reduceSum(function(d) {
-        //console.log(d);
+    /*var key_group = nutriment_dim.group().reduceSum(function(d) {
         return d['value'];
-    });
+    });*/
+    var key_group = nutriment_dim.group().reduce(
+        reduce_add_wavg(global),
+        reduce_remove_wavg(global),
+        reduce_init_wavg());
+
+    var key_filtered_group = group_filtering(key_group, metadata);
+    //console.log(key_group.all());
     var total_by_geo = geo_dim.group().reduce(
         reduceAddWeightedAvg2(filter, 'nbRecipes'),
         reduceRemoveWeightedAvg2(filter, 'nbRecipes'),
@@ -80,14 +88,16 @@ function makeGraphs(error, init_data, geo_countries, geo_states) {
         return d.avg;
     });
 
-    //console.log(totalAmountByState.all());
-    //console.log(key_group.all());
+    //var key_filtered_group = group_filtering(key_group, metadata);
+    //console.log(key_filtered_group);
 
 
     var avg_calories = ndx.groupAll().reduce(
         reduceAddWeightedAvg('avg_nutrition_calories_amount', 'nbRecipes'),
         reduceRemoveWeightedAvg('avg_nutrition_calories_amount', 'nbRecipes'),
         reduceInitWeightedAvg);
+
+    console.log(avg_calories)
 
     var total_max = total_by_geo.top(1)[0].value.avg;
     //var total_min = total_by_geo.bottom(1)[0].value.avg;
@@ -96,16 +106,25 @@ function makeGraphs(error, init_data, geo_countries, geo_states) {
     /* ===========================================================================
     Charts
     =========================================================================== */
-    var usChart = dc.geoChoroplethChart("#us-chart");
+    var mapChart = dc.geoChoroplethChart("#us-chart");
     var totalCalories = dc.numberDisplay("#total-donations-nd");
     var nutriment = dc.rowChart("#resource-type-row-chart");
 
     nutriment
         .width(width_map)
         .height(height_map)
-        .dimension(key_dim)
-        .group(key_group)
-        .xAxis().ticks(4);
+        .elasticX(true)
+        .dimension(nutriment_dim)
+        .group(key_filtered_group)
+        .valueAccessor(function(d) {
+            return d.value.pourcentage;
+        })
+        .label(get_nutriment_name(metadata))
+        .xAxis()
+        .tickFormat(function(v) {
+            return 100 * v + '%';
+        })
+        .ticks(4);
 
     totalCalories
         .formatNumber(d3.format("d"))
@@ -115,7 +134,7 @@ function makeGraphs(error, init_data, geo_countries, geo_states) {
         .group(avg_calories)
         .formatNumber(d3.format(".3s"));
 
-    usChart.width(width_map).height(height_map)
+    mapChart.width(width_map).height(height_map)
         .dimension(geo_dim)
         .group(total_by_geo)
         .colors(['#DDDDDD', "#E2F2FF", "#C4E4FF", "#9ED2FF", "#81C5FF", "#6BBAFF", "#51AEFF", "#36A2FF", "#1E96FF", "#0089FF", "#0061B5"])
@@ -139,4 +158,20 @@ function getGeoType() {
 
 function getWidth() {
     return $("#map_container").width();
+}
+
+function group_filtering(source_group, metadata) {
+    return {
+        all: function() {
+            return source_group.all().filter(function(d) {
+                return metadata.nutriment[d.key].nutriment_chart == true;
+            });
+        }
+    };
+}
+
+function get_nutriment_name(metadata) {
+    return function(d) {
+        return metadata.nutriment[d.key].name;
+    }
 }

@@ -1,6 +1,5 @@
 {
-    "per_city": [
-        {
+    "per_city": [{
             "avg_nutrition_fat_amount": 20.2815547511,
             "avg_readyInMinutes": 95.7887323944,
             "avg_submitter_personalRecipeSharedCount": 9.7042253521,
@@ -1491,8 +1490,7 @@
             "Recommended": 400.0
         }
     },
-    "per_region": [
-        {
+    "per_region": [{
             "avg_nutrition_fat_amount": 17.0403447045,
             "avg_readyInMinutes": 141.5108695652,
             "avg_submitter_personalRecipeSharedCount": 6.1195652174,
@@ -3649,8 +3647,7 @@
             "avg_nutrition_caloriesFromFat_amount": 101.3771043378
         }
     ],
-    "per_country": [
-        {
+    "per_country": [{
             "avg_nutrition_fat_amount": 15.6292675455,
             "avg_readyInMinutes": 115.6956521739,
             "avg_submitter_personalRecipeSharedCount": 5.8695652174,
