@@ -81,9 +81,9 @@ function makeGraphs(error, init_data, geo_countries, geo_states, metadata) {
     var key_filtered_group = group_filtering(key_group, metadata);
     //console.log(key_group.all());
     var total_by_geo = geo_dim.group().reduce(
-        reduceAddWeightedAvg2(filter, 'nbRecipes'),
-        reduceRemoveWeightedAvg2(filter, 'nbRecipes'),
-        reduceInitWeightedAvg2).order(function(d) {
+        reduceAddWeightedAvg(filter, 'nbRecipes'),
+        reduceRemoveWeightedAvg(filter, 'nbRecipes'),
+        reduceInitWeightedAvg()).order(function(d) {
         //console.log(d)
         return d.avg;
     });
@@ -92,22 +92,17 @@ function makeGraphs(error, init_data, geo_countries, geo_states, metadata) {
     //console.log(key_filtered_group);
 
 
-    var avg_calories = ndx.groupAll().reduce(
-        reduceAddWeightedAvg('avg_nutrition_calories_amount', 'nbRecipes'),
-        reduceRemoveWeightedAvg('avg_nutrition_calories_amount', 'nbRecipes'),
-        reduceInitWeightedAvg);
-
-    console.log(avg_calories)
+    var nb_recipes = ndx.groupAll().reduce(reduce_add_sum(), reduce_remove_sum(), reduce_init_sum());
+    var avg_readyInMinutes = ndx.groupAll().reduce(reduce_add_avg('avg_readyInMinutes'), reduce_remove_avg('avg_readyInMinutes'), reduce_init_sum());
 
     var total_max = total_by_geo.top(1)[0].value.avg;
-    //var total_min = total_by_geo.bottom(1)[0].value.avg;
-    //console.log(total_max);
 
     /* ===========================================================================
     Charts
     =========================================================================== */
     var mapChart = dc.geoChoroplethChart("#us-chart");
-    var totalCalories = dc.numberDisplay("#total-donations-nd");
+    var totalRecipes = dc.numberDisplay("#total-recipes");
+    var readyIn = dc.numberDisplay("#ready_in");
     var nutriment = dc.rowChart("#resource-type-row-chart");
 
     nutriment
@@ -126,13 +121,18 @@ function makeGraphs(error, init_data, geo_countries, geo_states, metadata) {
         })
         .ticks(4);
 
-    totalCalories
-        .formatNumber(d3.format("d"))
+    totalRecipes
+        .formatNumber(d3.format(".3s"))
+        .valueAccessor(function(d) {
+            return d.sum_value;
+        })
+        .group(nb_recipes)
+
+    readyIn.formatNumber(d3.format(".3s"))
         .valueAccessor(function(d) {
             return d.avg;
         })
-        .group(avg_calories)
-        .formatNumber(d3.format(".3s"));
+        .group(avg_readyInMinutes)
 
     mapChart.width(width_map).height(height_map)
         .dimension(geo_dim)
