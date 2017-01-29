@@ -41,18 +41,23 @@ function reduceInitWeightedAvg() {
 
 }
 
-function reduce_add_wavg(data) {
+function reduce_add_wavg(global) {
     return function(p, v) {
         ++p.count;
         p.sum_value += v.nbRecipes * v.value;
         p.sum_weight += v.nbRecipes;
         p.avg = p.sum_value / p.sum_weight;
-        p.pourcentage = p.avg / data[v.key];
+        if (global != null) {
+            p.pourcentage = p.avg / global[v.key];
+        } else {
+            p.pourcentage = p.avg;
+        }
+
         return p;
     };
 }
 
-function reduce_remove_wavg(data) {
+function reduce_remove_wavg(global) {
     return function(p, v) {
         init = reduce_init_wavg();
         --p.count;
@@ -62,7 +67,11 @@ function reduce_remove_wavg(data) {
             p.sum_value -= v.nbRecipes * v.value;
             p.sum_weight -= v.nbRecipes;
             p.avg = p.sum_value / p.sum_weight;
-            p.pourcentage = p.avg / data[v.key];
+            if (global != null) {
+                p.pourcentage = p.avg / global[v.key];
+            } else {
+                p.pourcentage = p.avg;
+            }
             return p;
         }
     }

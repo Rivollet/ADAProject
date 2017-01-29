@@ -14,3 +14,14 @@
     fill: black;
     font-size: 12px;
 }
+
+table{
+    width: 100%;
+    /*border-collapse:collapse;*/
+}
+
+td{
+    width: 100%;
+    text-align: left;
+    /*border: 1px solid black;*/
+}

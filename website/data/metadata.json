@@ -5,7 +5,7 @@
             "unit": "g",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 3
         },
         "avg_readyInMinutes": {
@@ -13,7 +13,7 @@
             "unit": "min",
             "nutriment_chart": false,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_submitter_personalRecipeSharedCount": {
@@ -21,7 +21,7 @@
             "unit": null,
             "nutriment_chart": false,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_nutrition_protein_amount": {
@@ -29,7 +29,7 @@
             "unit": "g",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 8
         },
         "avg_submitter_reviewsCount": {
@@ -37,7 +37,7 @@
             "unit": null,
             "nutriment_chart": false,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_submitter_followersCount": {
@@ -45,7 +45,7 @@
             "unit": null,
             "nutriment_chart": false,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_similarRecipes_metaData_page": {
@@ -53,7 +53,7 @@
             "unit": null,
             "nutriment_chart": false,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_cookMinutes": {
@@ -61,7 +61,7 @@
             "unit": "min",
             "nutriment_chart": false,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_nutrition_vitaminA_amount": {
@@ -69,7 +69,7 @@
             "unit": "IU",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 18
         },
         "avg_nutrition_niacin_amount": {
@@ -77,7 +77,7 @@
             "unit": "mg",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 16
         },
         "avg_nutrition_potassium_amount": {
@@ -85,7 +85,7 @@
             "unit": "mg",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 9
         },
         "avg_nutrition_calories_amount": {
@@ -93,7 +93,7 @@
             "unit": "kcal",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 1
         },
         "avg_prepMinutes": {
@@ -101,7 +101,7 @@
             "unit": "min",
             "nutriment_chart": false,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_submitter_reciepesCount": {
@@ -109,7 +109,7 @@
             "unit": null,
             "nutriment_chart": false,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_nutrition_saturatedFat_amount": {
@@ -117,7 +117,7 @@
             "unit": "g",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 4
         },
         "geo_name": {
@@ -125,7 +125,7 @@
             "unit": null,
             "nutriment_chart": false,
             "reduction_rule": null,
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_nutrition_calcium_amount": {
@@ -133,7 +133,7 @@
             "unit": "mg",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 10
         },
         "avg_nutrition_thiamin_amount": {
@@ -141,7 +141,7 @@
             "unit": "mg",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 17
         },
         "avg_ratingCount": {
@@ -149,7 +149,7 @@
             "unit": null,
             "nutriment_chart": false,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_similarRecipes_metaData_pagesize": {
@@ -157,7 +157,7 @@
             "unit": null,
             "nutriment_chart": false,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_nutrition_fiber_amount": {
@@ -165,7 +165,7 @@
             "unit": "g",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 12
         },
         "avg_nutrition_sodium_amount": {
@@ -173,14 +173,14 @@
             "unit": "mg",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 7
         },
         "avg_nutrition_sugars_amount": {
             "name": "Sugars",
             "unit": "g",
             "nutriment_chart": true,
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 6
         },
         "avg_ratingAverage": {
@@ -188,7 +188,7 @@
             "unit": null,
             "nutriment_chart": false,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_nutrition_carbohydrates_amount": {
@@ -196,7 +196,7 @@
             "unit": "g",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 14
         },
         "nbRecipes": {
@@ -204,7 +204,7 @@
             "unit": null,
             "nutriment_chart": false,
             "reduction_rule": "sum",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_nutrition_folate_amount": {
@@ -212,7 +212,7 @@
             "unit": "mg",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 13
         },
         "avg_servings": {
@@ -220,7 +220,7 @@
             "unit": null,
             "nutriment_chart": false,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "geo_identifier": {
@@ -228,7 +228,7 @@
             "unit": null,
             "nutriment_chart": false,
             "reduction_rule": null,
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_nutrition_cholesterol_amount": {
@@ -236,7 +236,7 @@
             "unit": "mg",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 5
         },
         "avg_submitter_favoritesCount": {
@@ -244,7 +244,7 @@
             "unit": null,
             "nutriment_chart": false,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_nutrition_vitaminC_amount": {
@@ -252,7 +252,7 @@
             "unit": "mg",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 20
         },
         "avg_submitter_madeRecipesCount": {
@@ -260,7 +260,7 @@
             "unit": null,
             "nutriment_chart": false,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_similarRecipes_metaData_totalCount": {
@@ -268,7 +268,7 @@
             "unit": null,
             "nutriment_chart": false,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_submitter_followingCount": {
@@ -276,7 +276,7 @@
             "unit": "g",
             "nutriment_chart": false,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_nutrition_magnesium_amount": {
@@ -284,7 +284,7 @@
             "unit": "g",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 11
         },
         "avg_nutrition_iron_amount": {
@@ -292,7 +292,7 @@
             "unit": "g",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 15
         },
         "avg_submitter_ratingsCount": {
@@ -300,7 +300,7 @@
             "unit": "g",
             "nutriment_chart": false,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_reviewCount": {
@@ -308,7 +308,7 @@
             "unit": "g",
             "nutriment_chart": false,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_nutrition_vitaminB6_amount": {
@@ -316,7 +316,7 @@
             "unit": "g",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 19
         },
         "database_name": {
@@ -324,7 +324,7 @@
             "unit": "g",
             "nutriment_chart": false,
             "reduction_rule": null,
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 0
         },
         "avg_nutrition_caloriesFromFat_amount": {
@@ -332,8 +332,254 @@
             "unit": "g",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
-            "color":"#1E96FF",
+            "color": "#1E96FF",
             "order": 2
+        }
+    },
+    "food_type": {
+
+        "alcohol": {
+            "name": "Alcohol",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 1
+        },
+        "condiment": {
+            "name": "Condiment",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 2
+        },
+        "dairy": {
+            "name": "Dairy",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 3
+        },
+        "database_name": {
+            "name": "database_name",
+            "unit": null,
+            "nutriment_chart": false,
+            "reduction_rule": "wavg",
+            "color": null,
+            "order": 0
+        },
+        "egg": {
+            "name": "Egg",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 4
+        },
+        "fish and seafood": {
+            "name": "Fish and Seafood",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 5
+        },
+        "fruit": {
+            "name": "Fruit",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 6
+        },
+        "geo_identifier": {
+            "name": "geo_identifier",
+            "unit": null,
+            "nutriment_chart": false,
+            "reduction_rule": "wavg",
+            "color": null,
+            "order": 0
+        },
+        "geo_name": {
+            "name": "geo_name",
+            "unit": null,
+            "nutriment_chart": false,
+            "reduction_rule": null,
+            "color": "#1E96FF",
+            "order": 0
+        },
+        "herbs": {
+            "name": "Herbs",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 7
+        },
+        "meat": {
+            "name": "Meat",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 8
+        },
+        "nbRecipes": {
+            "name": "nbRecipes",
+            "unit": null,
+            "nutriment_chart": false,
+            "reduction_rule": "sum",
+            "color": "#1E96FF",
+            "order": 0
+        },
+        "spicies": {
+            "name": "Spicies",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 9
+        },
+        "starchy": {
+            "name": "Starchy",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 10
+        },
+        "sugared": {
+            "name": "Sugared Food",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 11
+        },
+        "vegetables": {
+            "name": "Vegetables",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 12
+        }
+    },
+
+    "ingredient": {
+        "beef": {
+            "name": "Beef",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 1
+        },
+        "butter": {
+            "name": "Butter",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 2
+        },
+        "chicken": {
+            "name": "Chicken",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 3
+        },
+        "database_name": {
+            "name": "database_name",
+            "unit": null,
+            "nutriment_chart": false,
+            "reduction_rule": "wavg",
+            "color": null,
+            "order": 0
+        },
+        "garlic": {
+            "name": "Garlic",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 4
+        },
+        "geo_identifier": {
+            "name": "geo_identifier",
+            "unit": null,
+            "nutriment_chart": false,
+            "reduction_rule": "wavg",
+            "color": null,
+            "order": 0
+        },
+        "geo_name": {
+            "name": "geo_identifier",
+            "unit": null,
+            "nutriment_chart": false,
+            "reduction_rule": "wavg",
+            "color": null,
+            "order": 0
+        },
+        "mozzarella": {
+            "name": "Mozzarella",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 5
+        },
+        "nbRecipes": {
+            "name": "geo_identifier",
+            "unit": null,
+            "nutriment_chart": false,
+            "reduction_rule": "sum",
+            "color": null,
+            "order": 0
+        },
+        "oil": {
+            "name": "Oil",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 6
+        },
+        "pork": {
+            "name": "Pork",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 7
+        },
+        "rice": {
+            "name": "Rice",
+            "unit": null,
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": null,
+            "order": 0
+        },
+        "shrimp": {
+            "name": "Shrimp",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 8
+        },
+        "soy sauce": {
+            "name": "Soy Sauce",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 9
         }
     },
 
@@ -584,7 +830,8 @@
             "display_name": "New Zealand",
             "base_name": "australian-and-new-zealander"
         }
-    },"region": {
+    },
+    "region": {
         "35": {
             "geo_identifier": "35",
             "display_name": "New Mexico",

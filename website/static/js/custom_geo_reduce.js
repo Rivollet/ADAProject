@@ -2,24 +2,28 @@
   GEO REDUCTION
 ============================================================================= */
 
-function reduce_add_geo(metadata, global) {
+function reduce_add_geo(meta_key, global) {
     return function(p, v) {
-
         ++p[v.key].count;
         p[v.key].sum_value += v.nbRecipes * v.value;
         p[v.key].sum_weight += v.nbRecipes;
         p[v.key].avg = p[v.key].sum_value / p[v.key].sum_weight;
-        p[v.key].value = p[v.key].avg / global[v.key];
+        if (global != null) {
+            p[v.key].value = p[v.key].avg / global[v.key];
+        } else {
+            p[v.key].value = p[v.key].avg;
+        }
+
 
         update_final_value(p, v)
         return p;
     }
 }
 
-function reduce_remove_geo(metadata, global) {
+function reduce_remove_geo(meta_key, global) {
     return function(p, v) {
         /*
-          init = reduce_init_geo(metadata, global);
+          init = reduce_init_geo(meta_key, global);
           --p[v.key].count;
           if (p[v.key].count <= 0) {
               console.log("test")
@@ -42,11 +46,11 @@ function reduce_remove_geo(metadata, global) {
     }
 }
 
-function reduce_init_geo(metadata, global) {
+function reduce_init_geo(meta_key, global) {
     return function() {
         init = {};
         // add field information
-        for (var key in metadata.nutriment) {
+        for (var key in meta_key) {
             init[key] = base_structure();
         }
         // add final information
@@ -93,8 +97,7 @@ function update_final_value(p, v) {
         p.final.value = p[selected_key].value;
         p.final.key = selected_key;
     } else {
-        //console.log(v)
-        //console.log(p)
+
         p.final.value = v['nbRecipes'];
         p.final.key = null;
     }

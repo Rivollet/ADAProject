@@ -1,50 +1,32 @@
-var q = queue()
-    //.defer(d3.json, "data/fullAggregatedData.json")
-    //.defer(d3.json, "data/foodTypeRecipePerc.json")
-    .defer(d3.json, "data/IngredientRecipePerc.json")
-    .defer(d3.json, "static/geojson/custom.geoold.json")
-    .defer(d3.json, "static/geojson/us-states.json")
-    .defer(d3.json, 'data/metadata.json')
-    .await(makeGraphs);
+function insert_graph(
+    selector,
+    init_data,
+    geo_countries,
+    geo_states,
+    meta_key,
+    metadata,
+    map_chart,
+    nb_recipes_chart,
+    ready_in_chart,
+    nutriment_chart,
+    top_countries_chart,
+    worst_countries_chart) {
 
-/* Listeners */
-d3.select('#geo_selection').on("change", function() {
-    q.await(makeGraphs);
-});
-
-$(window).resize(function() {
-    clearTimeout(window.resizedFinished);
-    window.resizedFinished = setTimeout(function() {
-        console.log('Resized finished.');
-        q.await(makeGraphs);
-    }, 250);
-});
-
-/* Charts */
-function makeGraphs(error, init_data, geo_countries, geo_states, metadata) {
-
-
-    /* ===========================================================================
+    /* =========================================================================
     Initialize
-    =========================================================================== */
-    var geo_type = getGeoType();
+    ========================================================================= */
+    var geo_type = getGeoType(selector);
     var geo_map = null;
     var projection = null;
     var map_bijection = null;
     var geo_metadata = null;
 
-    var width_map = getWidth();
-    var height_map = getWidth() / 1.5;
+    var width_map = getWidth(selector);
+    var height_map = width_map / 1.5;
 
-    // TODO
-    var meta_key = metadata.nutriment;
-    meta_key = metadata.food_type;
-    meta_key = metadata.ingredient;
-
-
-    /* ===========================================================================
+    /* =========================================================================
     Data mode selection
-    =========================================================================== */
+    ========================================================================= */
     if (geo_type === "country") {
         geo_map = geo_countries;
         data = init_data['per_country'];
@@ -111,23 +93,7 @@ function makeGraphs(error, init_data, geo_countries, geo_states, metadata) {
     var nb_recipes = geo_dim.groupAll().reduce(reduce_add_sum(), reduce_remove_sum(), reduce_init_sum());
     var avg_readyInMinutes = ndx.groupAll().reduce(reduce_add_avg('avg_readyInMinutes'), reduce_remove_avg('avg_readyInMinutes'), reduce_init_sum());
 
-
-
-    /* ===========================================================================
-    Charts
-    =========================================================================== */
-    var map_chart = dc.geoChoroplethChart("#map-chart");
-    var nb_recipes_chart = dc.numberDisplay("#total-recipes");
-    var ready_in_chart = dc.numberDisplay("#ready_in");
-    var nutriment_chart = dc.rowChart("#resource-type-row-chart");
-    var top_countries_chart = dc.dataTable("#top_country_table");
-    var worst_countries_chart = dc.dataTable("#worst_country_table");
-
-    var defautColors = ['#DDDDDD', "#E2F2FF", "#C4E4FF", "#9ED2FF", "#81C5FF", "#6BBAFF", "#51AEFF", "#36A2FF", "#1E96FF", "#0089FF", "#0061B5"];
-    var defautColor = "#0089FF";
-    var colors20 = d3.scale.category20b();
-
-
+    /* CHART 1 ============================================================== */
     nutriment_chart
         .width(width_map)
         .height(height_map)
@@ -145,7 +111,9 @@ function makeGraphs(error, init_data, geo_countries, geo_states, metadata) {
         .colors(function(d) {
             return colors20(meta_key[d].order)
         })
-        .label(get_nutriment_name(meta_key))
+        .label(function(d) {
+            return meta_key[d.key].name;
+        })
         .xAxis()
         .tickFormat(function(v) {
             return 100 * v + '%';
@@ -155,21 +123,7 @@ function makeGraphs(error, init_data, geo_countries, geo_states, metadata) {
         return meta_key[d.key].order
     });
 
-
-    nb_recipes_chart
-        .formatNumber(d3.format(".3s"))
-        .valueAccessor(function(d) {
-            return d.sum_value;
-        })
-        .group(total_by_geo)
-
-
-    ready_in_chart.formatNumber(d3.format(".3s"))
-        .valueAccessor(function(d) {
-            return d.avg;
-        })
-        .group(avg_readyInMinutes)
-
+    /* CHART 2 ============================================================== */
     top_countries_chart.dimension(total_by_geo)
         .size(5)
         .group(function(d) {
@@ -195,6 +149,7 @@ function makeGraphs(error, init_data, geo_countries, geo_states, metadata) {
         ])
         .order(d3.descending);
 
+    /* CHART 3 ============================================================== */
     worst_countries_chart.dimension(inv_total_by_geo)
         .size(5)
         .group(function(d) {
@@ -220,6 +175,7 @@ function makeGraphs(error, init_data, geo_countries, geo_states, metadata) {
         ])
         .order(d3.descending);
 
+    /* CHART 4 ============================================================== */
     map_chart.width(width_map).height(height_map)
         .dimension(geo_dim)
         .group(total_by_geo)
@@ -273,39 +229,26 @@ function makeGraphs(error, init_data, geo_countries, geo_states, metadata) {
         }
     });
 
-    /*
-        function zoomed() {
-            projection
-                .translate(d3.event.translate)
-                .scale(d3.event.scale);
-            map_chart.render();
-        }
+    /* CHART 5 ============================================================== */
+    nb_recipes_chart
+        .formatNumber(d3.format(".3s"))
+        .valueAccessor(function(d) {
+            return d.sum_value;
+        })
+        .group(total_by_geo)
 
-        var zoom = d3.behavior.zoom()
-            .translate(projection.translate())
-            .scale(projection.scale())
-            .scaleExtent([height_map / 2, 8 * height_map])
-            .on("zoom", zoomed);
-
-        var svg = d3.select("#map-chart")
-            .attr("width", width_map)
-            .attr("height", height_map)
-            .call(zoom);
-    */
+    /* CHART 6 ============================================================== */
+    ready_in_chart.formatNumber(d3.format(".3s"))
+        .valueAccessor(function(d) {
+            return d.avg;
+        })
+        .group(avg_readyInMinutes)
 
     dc.renderAll();
 
 };
 
-
 /* Private function */
-function getGeoType() {
-    return d3.select('#geo_selection input[type="radio"]:checked').property("value");
-}
-
-function getWidth() {
-    return $("#map_container").width();
-}
 
 function group_filtering(source_group, meta_key) {
     return {
@@ -315,12 +258,6 @@ function group_filtering(source_group, meta_key) {
             });
         }
     };
-}
-
-function get_nutriment_name(meta_key) {
-    return function(d) {
-        return meta_key[d.key].name;
-    }
 }
 
 function create_range_color(color) {
