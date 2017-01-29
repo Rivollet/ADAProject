@@ -4,252 +4,830 @@
             "name": "Fat",
             "unit": "g",
             "nutriment_chart": true,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 3
         },
         "avg_readyInMinutes": {
             "name": "Ready In",
             "unit": "min",
             "nutriment_chart": false,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_submitter_personalRecipeSharedCount": {
             "name": "avg_submitter_personalRecipeSharedCount",
             "unit": null,
             "nutriment_chart": false,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_nutrition_protein_amount": {
             "name": "Protein",
             "unit": "g",
             "nutriment_chart": true,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 8
         },
         "avg_submitter_reviewsCount": {
             "name": "avg_submitter_reviewsCount",
             "unit": null,
             "nutriment_chart": false,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_submitter_followersCount": {
             "name": "avg_submitter_followersCount",
             "unit": null,
             "nutriment_chart": false,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_similarRecipes_metaData_page": {
             "name": "avg_similarRecipes_metaData_page",
             "unit": null,
             "nutriment_chart": false,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_cookMinutes": {
             "name": "Cook In",
             "unit": "min",
             "nutriment_chart": false,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_nutrition_vitaminA_amount": {
             "name": "Vitamin A",
             "unit": "IU",
             "nutriment_chart": true,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 18
         },
         "avg_nutrition_niacin_amount": {
             "name": "Niacin",
             "unit": "mg",
             "nutriment_chart": true,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 16
         },
         "avg_nutrition_potassium_amount": {
             "name": "Potassium",
             "unit": "mg",
             "nutriment_chart": true,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 9
         },
         "avg_nutrition_calories_amount": {
             "name": "Calories",
             "unit": "kcal",
             "nutriment_chart": true,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 1
         },
         "avg_prepMinutes": {
             "name": "Prepared In",
             "unit": "min",
             "nutriment_chart": false,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_submitter_reciepesCount": {
             "name": "avg_submitter_reciepesCount",
             "unit": null,
             "nutriment_chart": false,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_nutrition_saturatedFat_amount": {
             "name": "Saturated Fat",
             "unit": "g",
             "nutriment_chart": true,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 4
         },
         "geo_name": {
             "name": "geo_name",
             "unit": null,
             "nutriment_chart": false,
-            "reduction_rule": null
+            "reduction_rule": null,
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_nutrition_calcium_amount": {
             "name": "Calcium",
             "unit": "mg",
             "nutriment_chart": true,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 10
         },
         "avg_nutrition_thiamin_amount": {
             "name": "Thiamin",
             "unit": "mg",
             "nutriment_chart": true,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 17
         },
         "avg_ratingCount": {
             "name": "avg_ratingCount",
             "unit": null,
             "nutriment_chart": false,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_similarRecipes_metaData_pagesize": {
             "name": "avg_similarRecipes_metaData_pagesize",
             "unit": null,
             "nutriment_chart": false,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_nutrition_fiber_amount": {
             "name": "Fiber",
             "unit": "g",
             "nutriment_chart": true,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 12
         },
         "avg_nutrition_sodium_amount": {
             "name": "Sodium",
             "unit": "mg",
             "nutriment_chart": true,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 7
         },
         "avg_nutrition_sugars_amount": {
             "name": "Sugars",
             "unit": "g",
-            "nutriment_chart": true
+            "nutriment_chart": true,
+            "color":"#1E96FF",
+            "order": 6
         },
         "avg_ratingAverage": {
             "name": "avg_ratingAverage",
             "unit": null,
             "nutriment_chart": false,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_nutrition_carbohydrates_amount": {
             "name": "Carbohydrates",
             "unit": "g",
             "nutriment_chart": true,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 14
         },
         "nbRecipes": {
             "name": "nbRecipes",
             "unit": null,
             "nutriment_chart": false,
-            "reduction_rule": "sum"
+            "reduction_rule": "sum",
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_nutrition_folate_amount": {
             "name": "Folate",
             "unit": "mg",
             "nutriment_chart": true,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 13
         },
         "avg_servings": {
             "name": "avg_servings",
             "unit": null,
             "nutriment_chart": false,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 0
         },
         "geo_identifier": {
             "name": "geo_identifier",
             "unit": null,
             "nutriment_chart": false,
-            "reduction_rule": null
+            "reduction_rule": null,
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_nutrition_cholesterol_amount": {
             "name": "Cholesterol",
             "unit": "mg",
             "nutriment_chart": true,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 5
         },
         "avg_submitter_favoritesCount": {
             "name": "avg_submitter_favoritesCount",
             "unit": null,
             "nutriment_chart": false,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_nutrition_vitaminC_amount": {
             "name": "Vitamin C",
             "unit": "mg",
             "nutriment_chart": true,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 20
         },
         "avg_submitter_madeRecipesCount": {
             "name": "avg_submitter_madeRecipesCount",
             "unit": null,
             "nutriment_chart": false,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_similarRecipes_metaData_totalCount": {
             "name": "avg_similarRecipes_metaData_totalCount",
             "unit": null,
             "nutriment_chart": false,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_submitter_followingCount": {
             "name": "avg_submitter_followingCount",
             "unit": "g",
             "nutriment_chart": false,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_nutrition_magnesium_amount": {
             "name": "Magnesium",
             "unit": "g",
             "nutriment_chart": true,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 11
         },
         "avg_nutrition_iron_amount": {
             "name": "Iron",
             "unit": "g",
             "nutriment_chart": true,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 15
         },
         "avg_submitter_ratingsCount": {
             "name": "avg_submitter_ratingsCount",
             "unit": "g",
             "nutriment_chart": false,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_reviewCount": {
             "name": "avg_reviewCount",
             "unit": "g",
             "nutriment_chart": false,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_nutrition_vitaminB6_amount": {
             "name": "Vitamin B6",
             "unit": "g",
             "nutriment_chart": true,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 19
         },
         "database_name": {
             "name": "database_name",
             "unit": "g",
             "nutriment_chart": false,
-            "reduction_rule": null
+            "reduction_rule": null,
+            "color":"#1E96FF",
+            "order": 0
         },
         "avg_nutrition_caloriesFromFat_amount": {
             "name": "Calories From Fat",
             "unit": "g",
             "nutriment_chart": true,
-            "reduction_rule": "wavg"
+            "reduction_rule": "wavg",
+            "color":"#1E96FF",
+            "order": 2
+        }
+    },
+
+
+    "country": {
+        "BEL": {
+            "geo_identifier": "BEL",
+            "display_name": "Belgium",
+            "base_name": "belgian"
+        },
+        "IDN": {
+            "geo_identifier": "IDN",
+            "display_name": "Indonesia",
+            "base_name": "indonesian"
+        },
+        "EGY": {
+            "geo_identifier": "EGY",
+            "display_name": "Egypt",
+            "base_name": "egyptian"
+        },
+        "HUN": {
+            "geo_identifier": "HUN",
+            "display_name": "Hungary",
+            "base_name": "hungarian"
+        },
+        "PAK": {
+            "geo_identifier": "PAK",
+            "display_name": "Pakistan",
+            "base_name": "pakistani"
+        },
+        "CUB": {
+            "geo_identifier": "CUB",
+            "display_name": "Cuba",
+            "base_name": "cuban"
+        },
+        "ARG": {
+            "geo_identifier": "ARG",
+            "display_name": "Argentina",
+            "base_name": "argentinian"
+        },
+        "THA": {
+            "geo_identifier": "THA",
+            "display_name": "Thailand",
+            "base_name": "thai"
+        },
+        "VNM": {
+            "geo_identifier": "VNM",
+            "display_name": "Vietnam",
+            "base_name": "vietnamese"
+        },
+        "RUS": {
+            "geo_identifier": "RUS",
+            "display_name": "Russia",
+            "base_name": "russian"
+        },
+        "CHE": {
+            "geo_identifier": "CHE",
+            "display_name": "Switzerland",
+            "base_name": "swiss"
+        },
+        "NOR": {
+            "geo_identifier": "NOR",
+            "display_name": "Norway",
+            "base_name": "norwegian"
+        },
+        "KOR": {
+            "geo_identifier": "KOR",
+            "display_name": "South Korea",
+            "base_name": "korean"
+        },
+        "DEU": {
+            "geo_identifier": "DEU",
+            "display_name": "Germany",
+            "base_name": "german"
+        },
+        "BRA": {
+            "geo_identifier": "BRA",
+            "display_name": "Brazil",
+            "base_name": "brazilian"
+        },
+        "GRL": {
+            "geo_identifier": "GRL",
+            "display_name": "Denmark",
+            "base_name": "danish"
+        },
+        "TUR": {
+            "geo_identifier": "TUR",
+            "display_name": "Turkey",
+            "base_name": "turkish"
+        },
+        "JPN": {
+            "geo_identifier": "JPN",
+            "display_name": "Japan",
+            "base_name": "japanese"
+        },
+        "MYS": {
+            "geo_identifier": "MYS",
+            "display_name": "Malaysia",
+            "base_name": "malaysian"
+        },
+        "MEX": {
+            "geo_identifier": "MEX",
+            "display_name": "Mexico",
+            "base_name": "mexican"
+        },
+        "IND": {
+            "geo_identifier": "IND",
+            "display_name": "India",
+            "base_name": "indian"
+        },
+        "ITA": {
+            "geo_identifier": "ITA",
+            "display_name": "Italy",
+            "base_name": "italian"
+        },
+        "ISR": {
+            "geo_identifier": "ISR",
+            "display_name": "Israel",
+            "base_name": "israeli"
+        },
+        "ZAF": {
+            "geo_identifier": "ZAF",
+            "display_name": "South Africa",
+            "base_name": "south-african"
+        },
+        "FRA": {
+            "geo_identifier": "FRA",
+            "display_name": "France",
+            "base_name": "french"
+        },
+        "POL": {
+            "geo_identifier": "POL",
+            "display_name": "Poland",
+            "base_name": "polish"
+        },
+        "NLD": {
+            "geo_identifier": "NLD",
+            "display_name": "Netherlands",
+            "base_name": "dutch"
+        },
+        "PHL": {
+            "geo_identifier": "PHL",
+            "display_name": "Philippines",
+            "base_name": "filipino"
+        },
+        "FIN": {
+            "geo_identifier": "FIN",
+            "display_name": "Finland",
+            "base_name": "finnish"
+        },
+        "PER": {
+            "geo_identifier": "PER",
+            "display_name": "Peru",
+            "base_name": "peruvian"
+        },
+        "CHL": {
+            "geo_identifier": "CHL",
+            "display_name": "Chile",
+            "base_name": "chilean"
+        },
+        "JAM": {
+            "geo_identifier": "JAM",
+            "display_name": "Jamaica",
+            "base_name": "jamaican"
+        },
+        "ESP": {
+            "geo_identifier": "ESP",
+            "display_name": "Spain",
+            "base_name": "spanish"
+        },
+        "AUT": {
+            "geo_identifier": "AUT",
+            "display_name": "Austria",
+            "base_name": "austrian"
+        },
+        "CAN": {
+            "geo_identifier": "CAN",
+            "display_name": "Canada",
+            "base_name": "canadian"
+        },
+        "COL": {
+            "geo_identifier": "COL",
+            "display_name": "Colombia",
+            "base_name": "colombian"
+        },
+        "GRC": {
+            "geo_identifier": "GRC",
+            "display_name": "Greece",
+            "base_name": "greek"
+        },
+        "CHN": {
+            "geo_identifier": "CHN",
+            "display_name": "China",
+            "base_name": "chinese"
+        },
+        "DOM": {
+            "geo_identifier": "DOM",
+            "display_name": "Puerto Rico",
+            "base_name": "puerto-rican"
+        },
+        "MAR": {
+            "geo_identifier": "MAR",
+            "display_name": "Morocco",
+            "base_name": "moroccan"
+        },
+        "IRL": {
+            "geo_identifier": "IRL",
+            "display_name": "Ireland",
+            "base_name": "irish"
+        },
+        "SWE": {
+            "geo_identifier": "SWE",
+            "display_name": "Sweden",
+            "base_name": "swedish"
+        },
+        "CZE": {
+            "geo_identifier": "CZE",
+            "display_name": "Czech Republic",
+            "base_name": "czech"
+        },
+        "GBR": {
+            "geo_identifier": "GBR",
+            "display_name": "United Kingdom",
+            "base_name": "english"
+        },
+        "USA": {
+            "geo_identifier": "USA",
+            "display_name": "United States",
+            "base_name": "us-recipes"
+        },
+        "LBN": {
+            "geo_identifier": "LBN",
+            "display_name": "Lebanon",
+            "base_name": "lebanese"
+        },
+        "PRT": {
+            "geo_identifier": "PRT",
+            "display_name": "Portugal",
+            "base_name": "portuguese"
+        },
+        "BGD": {
+            "geo_identifier": "BGD",
+            "display_name": "Bangladesh",
+            "base_name": "bangladeshi"
+        },
+        "NZL": {
+            "geo_identifier": "NZL",
+            "display_name": "New Zealand",
+            "base_name": "australian-and-new-zealander"
+        }
+    },"region": {
+        "35": {
+            "geo_identifier": "35",
+            "display_name": "New Mexico",
+            "base_name": "new-mexico"
+        },
+        "16": {
+            "geo_identifier": "16",
+            "display_name": "Idaho",
+            "base_name": "idaho"
+        },
+        "40": {
+            "geo_identifier": "40",
+            "display_name": "Oklahoma",
+            "base_name": "oklahoma"
+        },
+        "54": {
+            "geo_identifier": "54",
+            "display_name": "West Virginia",
+            "base_name": "west-virginia"
+        },
+        "42": {
+            "geo_identifier": "42",
+            "display_name": "Pennsylvania",
+            "base_name": "pennsylvania"
+        },
+        "10": {
+            "geo_identifier": "10",
+            "display_name": "Delaware",
+            "base_name": "delaware"
+        },
+        "01": {
+            "geo_identifier": "01",
+            "display_name": "Alabama",
+            "base_name": "alabama"
+        },
+        "23": {
+            "geo_identifier": "23",
+            "display_name": "Maine",
+            "base_name": "maine"
+        },
+        "41": {
+            "geo_identifier": "41",
+            "display_name": "Oregon",
+            "base_name": "oregon"
+        },
+        "28": {
+            "geo_identifier": "28",
+            "display_name": "Mississippi",
+            "base_name": "mississippi"
+        },
+        "37": {
+            "geo_identifier": "37",
+            "display_name": "North Carolina",
+            "base_name": "north-carolina"
+        },
+        "33": {
+            "geo_identifier": "33",
+            "display_name": "New Hampshire",
+            "base_name": "new-hampshire"
+        },
+        "31": {
+            "geo_identifier": "31",
+            "display_name": "Nebraska",
+            "base_name": "nebraska"
+        },
+        "19": {
+            "geo_identifier": "19",
+            "display_name": "Iowa",
+            "base_name": "iowa"
+        },
+        "32": {
+            "geo_identifier": "32",
+            "display_name": "Nevada",
+            "base_name": "nevada"
+        },
+        "44": {
+            "geo_identifier": "44",
+            "display_name": "Rhode Island",
+            "base_name": "rhode-island"
+        },
+        "30": {
+            "geo_identifier": "30",
+            "display_name": "Montana",
+            "base_name": "montana"
+        },
+        "48": {
+            "geo_identifier": "48",
+            "display_name": "Texas",
+            "base_name": "texas"
+        },
+        "25": {
+            "geo_identifier": "25",
+            "display_name": "Massachusetts",
+            "base_name": "massachusetts"
+        },
+        "50": {
+            "geo_identifier": "50",
+            "display_name": "Vermont",
+            "base_name": "vermont"
+        },
+        "51": {
+            "geo_identifier": "51",
+            "display_name": "Virginia",
+            "base_name": "virginia"
+        },
+        "18": {
+            "geo_identifier": "18",
+            "display_name": "Indiana",
+            "base_name": "indiana"
+        },
+        "38": {
+            "geo_identifier": "38",
+            "display_name": "North Dakota",
+            "base_name": "north-dakota"
+        },
+        "39": {
+            "geo_identifier": "39",
+            "display_name": "Ohio",
+            "base_name": "ohio"
+        },
+        "26": {
+            "geo_identifier": "26",
+            "display_name": "Michigan",
+            "base_name": "michigan"
+        },
+        "36": {
+            "geo_identifier": "36",
+            "display_name": "New York",
+            "base_name": "new-york"
+        },
+        "55": {
+            "geo_identifier": "55",
+            "display_name": "Wisconsin",
+            "base_name": "wisconsin"
+        },
+        "34": {
+            "geo_identifier": "34",
+            "display_name": "New Jersey",
+            "base_name": "new-jersey"
+        },
+        "20": {
+            "geo_identifier": "20",
+            "display_name": "Kansas",
+            "base_name": "kansas"
+        },
+        "12": {
+            "geo_identifier": "12",
+            "display_name": "Florida",
+            "base_name": "florida"
+        },
+        "49": {
+            "geo_identifier": "49",
+            "display_name": "Utah",
+            "base_name": "utah"
+        },
+        "15": {
+            "geo_identifier": "15",
+            "display_name": "Hawaii",
+            "base_name": "hawaii"
+        },
+        "09": {
+            "geo_identifier": "09",
+            "display_name": "Connecticut",
+            "base_name": "connecticut"
+        },
+        "29": {
+            "geo_identifier": "29",
+            "display_name": "Missouri",
+            "base_name": "missouri"
+        },
+        "24": {
+            "geo_identifier": "24",
+            "display_name": "Maryland",
+            "base_name": "maryland"
+        },
+        "04": {
+            "geo_identifier": "04",
+            "display_name": "Arizona",
+            "base_name": "arizona"
+        },
+        "46": {
+            "geo_identifier": "46",
+            "display_name": "South Dakota",
+            "base_name": "south-dakota"
+        },
+        "17": {
+            "geo_identifier": "17",
+            "display_name": "Illinois",
+            "base_name": "illinois"
+        },
+        "47": {
+            "geo_identifier": "47",
+            "display_name": "Tennessee",
+            "base_name": "tennessee"
+        },
+        "05": {
+            "geo_identifier": "05",
+            "display_name": "Arkansas",
+            "base_name": "arkansas"
+        },
+        "invalid": {
+            "geo_identifier": "invalid",
+            "display_name": "quebec"
+        },
+        "22": {
+            "geo_identifier": "22",
+            "display_name": "Louisiana",
+            "base_name": "louisiana"
+        },
+        "02": {
+            "geo_identifier": "02",
+            "display_name": "Alaska",
+            "base_name": "alaska"
+        },
+        "53": {
+            "geo_identifier": "53",
+            "display_name": "Washington",
+            "base_name": "washington"
+        },
+        "27": {
+            "geo_identifier": "27",
+            "display_name": "Minnesota",
+            "base_name": "minnesota"
+        },
+        "08": {
+            "geo_identifier": "08",
+            "display_name": "Colorado",
+            "base_name": "colorado"
+        },
+        "45": {
+            "geo_identifier": "45",
+            "display_name": "South Carolina",
+            "base_name": "south-carolina"
+        },
+        "21": {
+            "geo_identifier": "21",
+            "display_name": "Kentucky",
+            "base_name": "kentucky"
+        },
+        "56": {
+            "geo_identifier": "56",
+            "display_name": "Wyoming",
+            "base_name": "wyoming"
         }
     }
 }
