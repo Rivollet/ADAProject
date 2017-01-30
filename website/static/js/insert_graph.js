@@ -143,7 +143,7 @@ function insert_graph(
                 format: function(d) {
                     var format = d3.format(".0%");
                     if (d.value.final.key == null) {
-                        return d.value.final.value;
+                        return d.value.final.value + " recipes";
                     } else {
                         return format(d.value.final.value);
                     }

@@ -485,6 +485,30 @@
             "color": "#1E96FF",
             "order": 2
         },
+        "carrot": {
+            "name": "Carrot",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 2
+        },
+        "avocado": {
+            "name": "Avocado",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 2
+        },
+        "bacon": {
+            "name": "Bacon",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 2
+        },
         "chicken": {
             "name": "Chicken",
             "unit": "frac",
@@ -524,6 +548,38 @@
             "reduction_rule": "wavg",
             "color": null,
             "order": 0
+        },
+        "ketchup": {
+            "name": "Ketchup",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 2
+        },
+        "maple syrup": {
+            "name": "Maple Syrup",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 2
+        },
+        "salt": {
+            "name": "Salt",
+            "unit": "frac",
+            "nutriment_chart": false,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 2
+        },
+        "strawberry": {
+            "name": "Strawberry",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 2
         },
         "mozzarella": {
             "name": "Mozzarella",
