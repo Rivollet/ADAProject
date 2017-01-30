@@ -45,6 +45,12 @@ function insert_graph(
         };
     }
 
+    $("#button" + selector).click(function() {
+        console.log("click");
+        map_chart.filterAll();
+        dc.redrawAll();
+    });
+
     /* ===========================================================================
     Data dimension
     =========================================================================== */
@@ -139,7 +145,7 @@ function insert_graph(
                 }
             },
             {
-                label: 'Value',
+                label: '',
                 format: function(d) {
                     var format = d3.format(".0%");
                     if (d.value.final.key == null) {
@@ -165,7 +171,7 @@ function insert_graph(
                 }
             },
             {
-                label: 'Value',
+                label: '',
                 format: function(d) {
                     var format = d3.format(".0%");
                     if (d.value.final.key == null) {

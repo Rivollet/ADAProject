@@ -25,13 +25,13 @@ table {
 }
 
 thead {
-  width: 100%;
-  display: table;
+    width: 100%;
+    display: table;
 }
 
 tbody {
-  width: 100%;
-  display: table;
+    width: 100%;
+    display: table;
 }
 
 tr {
@@ -44,7 +44,6 @@ tr {
 td, th {
     width: 50%;
 }
-
 
 .mini_box {
     height: 165px;
@@ -72,6 +71,24 @@ h3 {
     font-size: 1.8em;
     margin-bottom: .7em;
 }
+
+.button-reset-map {
+    width: 220px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: #e4e4e4;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: none;
+    padding: 2px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.button-reset-map:hover {
+  background-color: #77b5ea;
+}
+
 
 .switch-field {
     font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
