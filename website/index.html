@@ -8,7 +8,7 @@
     <!-- CSS Files -->
     <link rel="stylesheet" href="static/lib/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/lib/css/keen-dashboards.css">
-    <link rel="stylesheet" href="static/lib/css/dc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.2/dc.min.css">
     <link rel="stylesheet" href="static/css/custom.css">
 
 </head>
@@ -24,13 +24,20 @@
         </div>
     </div>
 
-    <form id='geo_selection'>
-        <input type="radio" name="geo_selection" value="continent"> By Continents
-        <input type="radio" name="geo_selection" value="country" checked> By Countries
-        <input type="radio" name="geo_selection" value="state"> By US States
-    </form>
 
     <div class="container-fluid">
+
+        <!-- ===================================================================
+        FIRST PART
+        ==================================================================== -->
+        <h2>What types of food we cook ?</h2>
+
+        <form id='geo_selection1'>
+            <input type="radio" name="geo_selection" value="continent"> By Continents
+            <input type="radio" name="geo_selection" value="country" checked> By Countries
+            <input type="radio" name="geo_selection" value="state"> By US States
+        </form>
+
         <div class="row">
             <div class="col-sm-6">
                 <div class="chart-wrapper">
@@ -38,7 +45,7 @@
                         Nutriments
                     </div>
                     <div class="chart-stage">
-                        <div id="resource-type-row-chart"></div>
+                        <div id="resource-type-row-chart1"></div>
                     </div>
                 </div>
             </div>
@@ -48,8 +55,9 @@
                     <div class="chart-title">
                         Geographic Distribution
                     </div>
-                    <div class="chart-stage" id="map_container">
-                        <div id="map-chart"></div>
+                    <div class="chart-stage" id="map_container1">
+                        <div id="map-chart1">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -61,7 +69,7 @@
                         Number of Selected Recipes
                     </div>
                     <div class="chart-stage">
-                        <div id="total-recipes"></div>
+                        <div id="total-recipes1"></div>
                     </div>
                 </div>
             </div>
@@ -71,99 +79,193 @@
                         Ready In
                     </div>
                     <div class="chart-stage">
-                        <div id="ready_in"></div>
+                        <div id="ready_in1"></div>
                     </div>
                 </div>
             </div>
             <div class="col-sm-3">
                 <div class="chart-wrapper">
                     <div class="chart-title">
-                        Top Countries
+                        Higher Scores
                     </div>
                     <div class="chart-stage">
-                        <div id="top_country_table"></div>
+                        <div id="top_country_table1"></div>
                     </div>
                 </div>
             </div>
             <div class="col-sm-3">
                 <div class="chart-wrapper">
                     <div class="chart-title">
-                        Total of ...
+                        Lower Scores
                     </div>
                     <div class="chart-stage">
-                        <div id="total-donations-nd"></div>
+                        <div id="worst_country_table1"></div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <hr>
+        <!-- ===================================================================
+        SECOND PART
+        ==================================================================== -->
+        <h2>What ingredients we cook ?</h2>
 
-    <!--
-    <div class="container-fluid">
+        <form id='geo_selection2'>
+            <input type="radio" name="geo_selection" value="continent"> By Continents
+            <input type="radio" name="geo_selection" value="country" checked> By Countries
+            <input type="radio" name="geo_selection" value="state"> By US States
+        </form>
 
-      <div class="row">
-
-        <div class="col-sm-6">
-          <div class="row">
-
-
-            <div class="col-sm-12">
-              <div class="chart-wrapper">
-                <div class="chart-title">
-                  Resources Type
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="chart-wrapper">
+                    <div class="chart-title">
+                        Nutriments
+                    </div>
+                    <div class="chart-stage">
+                        <div id="resource-type-row-chart2"></div>
+                    </div>
                 </div>
-                <div class="chart-stage">
-                  <div id="resource-type-row-chart"></div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="chart-wrapper">
+                    <div class="chart-title">
+                        Geographic Distribution
+                    </div>
+                    <div class="chart-stage" id="map_container2">
+                        <div id="map-chart2">
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-
-
-          </div>
         </div>
-
-        <div class="col-sm-6">
-          <div class="chart-wrapper">
-            <div class="chart-title">
-              Distribution of Donations
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="chart-wrapper">
+                    <div class="chart-title">
+                        Number of Selected Recipes
+                    </div>
+                    <div class="chart-stage">
+                        <div id="total-recipes2"></div>
+                    </div>
+                </div>
             </div>
-            <div class="chart-stage" id="map_container">
-              <div id="us-chart"></div>
+            <div class="col-sm-3">
+                <div class="chart-wrapper">
+                    <div class="chart-title">
+                        Ready In
+                    </div>
+                    <div class="chart-stage">
+                        <div id="ready_in2"></div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="col-sm-3">
+                <div class="chart-wrapper">
+                    <div class="chart-title">
+                        Higher Scores
+                    </div>
+                    <div class="chart-stage">
+                        <div id="top_country_table2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="chart-wrapper">
+                    <div class="chart-title">
+                        Lower Scores
+                    </div>
+                    <div class="chart-stage">
+                        <div id="worst_country_table2"></div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <hr>
+        <!-- ===================================================================
+        THIRD PART
+        ==================================================================== -->
+        <h2>What is the nutritional intake</h2>
 
+        <form id='geo_selection3'>
+            <input type="radio" name="geo_selection" value="continent"> By Continents
+            <input type="radio" name="geo_selection" value="country" checked> By Countries
+            <input type="radio" name="geo_selection" value="state"> By US States
+        </form>
 
-        <div class="col-sm-3">
-          <div class="chart-wrapper">
-            <div class="chart-title">
-              Total Number of Donations
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="chart-wrapper">
+                    <div class="chart-title">
+                        Nutriments
+                    </div>
+                    <div class="chart-stage">
+                        <div id="resource-type-row-chart3"></div>
+                    </div>
+                </div>
             </div>
-            <div class="chart-stage">
-              <div id="number-projects-nd"></div>
+
+            <div class="col-sm-6">
+                <div class="chart-wrapper">
+                    <div class="chart-title">
+                        Geographic Distribution
+                    </div>
+                    <div class="chart-stage" id="map_container3">
+                        <div id="map-chart3">
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-
-        <div class="col-sm-3">
-          <div class="chart-wrapper">
-            <div class="chart-title">
-              Total Donations in USD
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="chart-wrapper">
+                    <div class="chart-title">
+                        Number of Selected Recipes
+                    </div>
+                    <div class="chart-stage">
+                        <div id="total-recipes3"></div>
+                    </div>
+                </div>
             </div>
-            <div class="chart-stage">
-              <div id="total-donations-nd"></div>
+            <div class="col-sm-3">
+                <div class="chart-wrapper">
+                    <div class="chart-title">
+                        Ready In
+                    </div>
+                    <div class="chart-stage">
+                        <div id="ready_in3"></div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="col-sm-3">
+                <div class="chart-wrapper">
+                    <div class="chart-title">
+                        Higher Scores
+                    </div>
+                    <div class="chart-stage">
+                        <div id="top_country_table3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="chart-wrapper">
+                    <div class="chart-title">
+                        Lower Scores
+                    </div>
+                    <div class="chart-stage">
+                        <div id="worst_country_table3"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-
-      </div>
+        <hr>
 
     </div>
 
-      <hr>
--->
-    </div>
+
+
 
 
     <!-- JS Script -->
@@ -183,7 +285,9 @@
     <script src="static/lib/js/keen.min.js"></script>
     <script src='static/js/custom_dc.js' type='text/javascript'></script>
     <script src='static/js/custom_geo_reduce.js' type='text/javascript'></script>
-    <script src='static/js/graphs.js' type='text/javascript'></script>
+    <!--<script src='static/js/graphs.js' type='text/javascript'></script>-->
+    <script src='static/js/async_load.js' type='text/javascript'></script>
+    <script src='static/js/insert_graph.js' type='text/javascript'></script>
 
 </body>
 
