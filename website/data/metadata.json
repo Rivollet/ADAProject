@@ -475,7 +475,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 1
+            "order": 5
         },
         "butter": {
             "name": "Butter",
@@ -483,7 +483,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 2
+            "order": 3
         },
         "carrot": {
             "name": "Carrot",
@@ -491,7 +491,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 2
+            "order": 7
         },
         "avocado": {
             "name": "Avocado",
@@ -499,7 +499,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 2
+            "order": 13
         },
         "bacon": {
             "name": "Bacon",
@@ -507,7 +507,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 2
+            "order": 11
         },
         "chicken": {
             "name": "Chicken",
@@ -515,7 +515,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 3
+            "order": 4
         },
         "database_name": {
             "name": "database_name",
@@ -531,7 +531,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 4
+            "order": 2
         },
         "geo_identifier": {
             "name": "geo_identifier",
@@ -555,7 +555,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 2
+            "order": 13
         },
         "maple syrup": {
             "name": "Maple Syrup",
@@ -563,7 +563,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 2
+            "order": 15
         },
         "salt": {
             "name": "Salt",
@@ -579,7 +579,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 2
+            "order": 14
         },
         "mozzarella": {
             "name": "Mozzarella",
@@ -587,7 +587,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 5
+            "order": 10
         },
         "nbRecipes": {
             "name": "geo_identifier",
@@ -603,7 +603,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 6
+            "order": 1
         },
         "pork": {
             "name": "Pork",
@@ -611,7 +611,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 7
+            "order": 9
         },
         "rice": {
             "name": "Rice",
@@ -619,7 +619,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": null,
-            "order": 0
+            "order": 6
         },
         "shrimp": {
             "name": "Shrimp",
@@ -627,7 +627,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 8
+            "order": 11
         },
         "soy sauce": {
             "name": "Soy Sauce",
@@ -635,7 +635,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 9
+            "order": 8
         }
     },
 
