@@ -882,8 +882,8 @@
             "base_name": "bangladeshi"
         },
         "AUS": {
-            "geo_identifier": "NZL",
-            "display_name": "New Zealand",
+            "geo_identifier": "AUS",
+            "display_name": "Australia",
             "base_name": "australian-and-new-zealander"
         }
     },
