@@ -46,7 +46,6 @@ function insert_graph(
     }
 
     $("#button" + selector).click(function() {
-        console.log("click");
         map_chart.filterAll();
         dc.redrawAll();
     });
@@ -97,7 +96,6 @@ function insert_graph(
     });
 
     var nb_recipes = nutriment_dim.group().reduceSum(function(d) {
-        //console.log(d);
         return d.nbRecipes;
     })
     //var avg_readyInMinutes = ndx.groupAll().reduce(reduce_add_avg('avg_readyInMinutes'), reduce_remove_avg('avg_readyInMinutes'), reduce_init_sum());
