@@ -1,198 +1,108 @@
 {
-    "city": {
-        "buffalo": {
-            "geo_identifier": "Buffalo",
-            "display_name": "Buffalo"
-        },
-        "atlanta": {
-            "geo_identifier": "Atlanta",
-            "display_name": "Atlanta"
-        },
-        "baltimore": {
-            "geo_identifier": "Baltimore",
-            "display_name": "Baltimore"
-        },
-        "toronto": {
-            "geo_identifier": "Toronto",
-            "display_name": "Toronto"
-        },
-        "minneapolis": {
-            "geo_identifier": "Minneapolis",
-            "display_name": "Minneapolis"
-        },
-        "dallas": {
-            "geo_identifier": "Dallas",
-            "display_name": "Dallas"
-        },
-        "indianapolis": {
-            "geo_identifier": "Indianapolis",
-            "display_name": "Indianapolis"
-        },
-        "chicago": {
-            "geo_identifier": "Chicago",
-            "display_name": "Chicago"
-        },
-        "miami": {
-            "geo_identifier": "Miami",
-            "display_name": "Miami"
-        },
-        "san-francisco": {
-            "geo_identifier": "San Francisco",
-            "display_name": "San Francisco"
-        },
-        "cleveland": {
-            "geo_identifier": "Cleveland",
-            "display_name": "Cleveland"
-        },
-        "kansas-city": {
-            "geo_identifier": "Kansas City",
-            "display_name": "Kansas City"
-        },
-        "oakland": {
-            "geo_identifier": "San Francisco",
-            "display_name": "Oakland"
-        },
-        "boston": {
-            "geo_identifier": "Boston",
-            "display_name": "Boston"
-        },
-        "milwaukee": {
-            "geo_identifier": "Milwaukee",
-            "display_name": "Milwaukee"
-        },
-        "vancouver": {
-            "geo_identifier": "Vancouver",
-            "display_name": "Vancouver"
-        },
-        "st-louis": {
-            "geo_identifier": "St. Louis",
-            "display_name": "St. Louis"
-        },
-        "houston": {
-            "geo_identifier": "Houston",
-            "display_name": "Houston"
-        },
-        "philadelphia": {
-            "geo_identifier": "Philadelphia",
-            "display_name": "Philadelphia"
-        },
-        "los-angeles": {
-            "geo_identifier": "Los Angeles",
-            "display_name": "Los Angeles"
-        },
-        "pittsburgh": {
-            "geo_identifier": "Pittsburgh",
-            "display_name": "Pittsburgh"
-        },
-        "washington-dc": {
-            "geo_identifier": "Washington",
-            "display_name": "Washington"
-        },
-        "cincinnati": {
-            "geo_identifier": "Cincinnati",
-            "display_name": "Cincinnati"
-        },
-        "new-orleans": {
-            "geo_identifier": "New Orleans",
-            "display_name": "New Orleans"
-        },
-        "san-diego": {
-            "geo_identifier": "San Diego",
-            "display_name": "San Diego"
-        },
-        "seattle": {
-            "geo_identifier": "Seattle",
-            "display_name": "Seattle"
-        },
-        "tampa-bay": {
-            "geo_identifier": "Tampa",
-            "display_name": "Tampa Bay"
-        },
-        "new-york": {
-            "geo_identifier": "New York City",
-            "display_name": "New York City"
-        },
-        "california": {
-            "geo_identifier": "Riverside",
-            "display_name": "California (Riverside)"
-        },
-        "green-bay": {
-            "geo_identifier": "Milwaukee",
-            "display_name": "Green Bay"
-        },
-        "detroit": {
-            "geo_identifier": "Detroit",
-            "display_name": "Detroit"
-        },
-        "new-york-city": {
-            "geo_identifier": "New York City",
-            "display_name": "New York City"
-        },
-        "georgia": {
-            "geo_identifier": "Atlanta",
-            "display_name": "Atlanta"
-        }
-    },
     "country": {
-        "belgian": {
-            "geo_identifier": "BEL",
-            "display_name": "Belgium"
+        "austrian": {
+            "geo_identifier": "AUT",
+            "display_name": "Austria"
         },
-        "indonesian": {
-            "geo_identifier": "IDN",
-            "display_name": "Indonesia"
-        },
-        "egyptian": {
-            "geo_identifier": "EGY",
-            "display_name": "Egypt"
-        },
-        "chili": {
-            "geo_identifier": "CHL",
-            "display_name": "Chile"
-        },
-        "hungarian": {
-            "geo_identifier": "HUN",
-            "display_name": "Hungary"
-        },
-        "pakistani": {
-            "geo_identifier": "PAK",
-            "display_name": "Pakistan"
-        },
-        "cuban": {
-            "geo_identifier": "CUB",
-            "display_name": "Cuba"
-        },
-        "argentinian": {
-            "geo_identifier": "ARG",
-            "display_name": "Argentina"
-        },
-        "thai": {
-            "geo_identifier": "THA",
-            "display_name": "Thailand"
-        },
-        "vietnamese": {
-            "geo_identifier": "VNM",
-            "display_name": "Vietnam"
-        },
-        "russian": {
-            "geo_identifier": "RUS",
-            "display_name": "Russia"
-        },
-        "swiss": {
-            "geo_identifier": "CHE",
-            "display_name": "Switzerland"
-        },
-        "norwegian": {
-            "geo_identifier": "NOR",
-            "display_name": "Norway"
+        "spanish": {
+            "geo_identifier": "ESP",
+            "display_name": "Spain"
         },
         "korean": {
             "geo_identifier": "KOR",
             "display_name": "South Korea"
         },
-        "german": {
-            "geo_identifier": "DEU",
-            "display_name": "Germany"
+        "polish": {
+            "geo_identifier": "POL",
+            "display_name": "Poland"
+        },
+        "south-african": {
+            "geo_identifier": "ZAF",
+            "display_name": "South Africa"
+        },
+        "greek": {
+            "geo_identifier": "GRC",
+            "display_name": "Greece"
+        },
+        "indian": {
+            "geo_identifier": "IND",
+            "display_name": "India"
+        },
+        "hungarian": {
+            "geo_identifier": "HUN",
+            "display_name": "Hungary"
+        },
+        "vietnamese": {
+            "geo_identifier": "VNM",
+            "display_name": "Vietnam"
+        },
+        "pakistani": {
+            "geo_identifier": "PAK",
+            "display_name": "Pakistan"
+        },
+        "israeli": {
+            "geo_identifier": "ISR",
+            "display_name": "Israel"
+        },
+        "norwegian": {
+            "geo_identifier": "NOR",
+            "display_name": "Norway"
+        },
+        "australian-and-new-zealander": {
+            "geo_identifier": "AUS",
+            "display_name": "Australia"
+        },
+        "swiss": {
+            "geo_identifier": "CHE",
+            "display_name": "Switzerland"
+        },
+        "french": {
+            "geo_identifier": "FRA",
+            "display_name": "France"
+        },
+        "welsh": {
+            "geo_identifier": "GBR",
+            "display_name": "Wales"
+        },
+        "egyptian": {
+            "geo_identifier": "EGY",
+            "display_name": "Egypt"
+        },
+        "us-recipes": {
+            "geo_identifier": "USA",
+            "display_name": "United States of America"
+        },
+        "belgian": {
+            "geo_identifier": "BEL",
+            "display_name": "Belgium"
+        },
+        "chinese": {
+            "geo_identifier": "CHN",
+            "display_name": "China"
+        },
+        "italian": {
+            "geo_identifier": "ITA",
+            "display_name": "Italy"
+        },
+        "indonesian": {
+            "geo_identifier": "IDN",
+            "display_name": "Indonesia"
+        },
+        "colombian": {
+            "geo_identifier": "COL",
+            "display_name": "Colombia"
+        },
+        "puerto-rican": {
+            "geo_identifier": "DOM",
+            "display_name": "Puerto Rico"
+        },
+        "mexican": {
+            "geo_identifier": "MEX",
+            "display_name": "Mexico"
+        },
+        "czech": {
+            "geo_identifier": "CZE",
+            "display_name": "Czech Republic"
         },
         "brazilian": {
             "geo_identifier": "BRA",
@@ -202,347 +112,433 @@
             "geo_identifier": "GRL",
             "display_name": "Denmark"
         },
-        "turkish": {
-            "geo_identifier": "TUR",
-            "display_name": "Turkey"
-        },
-        "japanese": {
-            "geo_identifier": "JPN",
-            "display_name": "Japan"
-        },
-        "malaysian": {
-            "geo_identifier": "MYS",
-            "display_name": "Malaysia"
-        },
-        "mexican": {
-            "geo_identifier": "MEX",
-            "display_name": "Mexico"
-        },
-        "indian": {
-            "geo_identifier": "IND",
-            "display_name": "India"
-        },
-        "italian": {
-            "geo_identifier": "ITA",
-            "display_name": "Italy"
-        },
-        "israeli": {
-            "geo_identifier": "ISR",
-            "display_name": "Israel"
-        },
-        "south-african": {
-            "geo_identifier": "ZAF",
-            "display_name": "South Africa"
-        },
-        "french": {
-            "geo_identifier": "FRA",
-            "display_name": "France"
-        },
-        "polish": {
-            "geo_identifier": "POL",
-            "display_name": "Poland"
-        },
-        "dutch": {
-            "geo_identifier": "NLD",
-            "display_name": "Netherlands"
-        },
-        "filipino": {
-            "geo_identifier": "PHL",
-            "display_name": "Philippines"
-        },
-        "finnish": {
-            "geo_identifier": "FIN",
-            "display_name": "Finland"
-        },
-        "peruvian": {
-            "geo_identifier": "PER",
-            "display_name": "Peru"
-        },
-        "chilean": {
-            "geo_identifier": "CHL",
-            "display_name": "Chile"
-        },
-        "jamaican": {
-            "geo_identifier": "JAM",
-            "display_name": "Jamaica"
-        },
-        "spanish": {
-            "geo_identifier": "ESP",
-            "display_name": "Spain"
-        },
-        "austrian": {
-            "geo_identifier": "AUT",
-            "display_name": "Austria"
-        },
-        "canadian": {
-            "geo_identifier": "CAN",
-            "display_name": "Canada"
-        },
-        "colombian": {
-            "geo_identifier": "COL",
-            "display_name": "Colombia"
-        },
-        "greek": {
-            "geo_identifier": "GRC",
-            "display_name": "Greece"
-        },
-        "chinese": {
-            "geo_identifier": "CHN",
-            "display_name": "China"
-        },
-        "puerto-rican": {
-            "geo_identifier": "DOM",
-            "display_name": "Puerto Rico"
-        },
-        "moroccan": {
-            "geo_identifier": "MAR",
-            "display_name": "Morocco"
+        "lebanese": {
+            "geo_identifier": "LBN",
+            "display_name": "Lebanon"
         },
         "irish": {
             "geo_identifier": "IRL",
             "display_name": "Ireland"
         },
-        "turkey": {
+        "canadian": {
+            "geo_identifier": "CAN",
+            "display_name": "Canada"
+        },
+        "scottish": {
+            "geo_identifier": "GBR",
+            "display_name": "Scotland"
+        },
+        "moroccan": {
+            "geo_identifier": "MAR",
+            "display_name": "Morocco"
+        },
+        "dutch": {
+            "geo_identifier": "NLD",
+            "display_name": "Netherlands"
+        },
+        "chilean": {
+            "geo_identifier": "CHL",
+            "display_name": "Chile"
+        },
+        "turkish": {
             "geo_identifier": "TUR",
             "display_name": "Turkey"
-        },
-        "swedish": {
-            "geo_identifier": "SWE",
-            "display_name": "Sweden"
-        },
-        "czech": {
-            "geo_identifier": "CZE",
-            "display_name": "Czech Republic"
-        },
-        "english": {
-            "geo_identifier": "GBR",
-            "display_name": "United Kingdom"
-        },
-        "us-recipes": {
-            "geo_identifier": "USA",
-            "display_name": "United States of America"
-        },
-        "welsh": {
-            "geo_identifier": "GBR",
-            "display_name": "Wales"
-        },
-        "lebanese": {
-            "geo_identifier": "LBN",
-            "display_name": "Lebanon"
-        },
-        "portuguese": {
-            "geo_identifier": "PRT",
-            "display_name": "Portugal"
         },
         "bangladeshi": {
             "geo_identifier": "BGD",
             "display_name": "Bangladesh"
         },
-        "australian-and-new-zealander": {
-            "geo_identifier": "NZL",
-            "display_name": "New Zealand"
+        "peruvian": {
+            "geo_identifier": "PER",
+            "display_name": "Peru"
         },
-        "scottish": {
+        "filipino": {
+            "geo_identifier": "PHL",
+            "display_name": "Philippines"
+        },
+        "thai": {
+            "geo_identifier": "THA",
+            "display_name": "Thailand"
+        },
+        "jamaican": {
+            "geo_identifier": "JAM",
+            "display_name": "Jamaica"
+        },
+        "malaysian": {
+            "geo_identifier": "MYS",
+            "display_name": "Malaysia"
+        },
+        "swedish": {
+            "geo_identifier": "SWE",
+            "display_name": "Sweden"
+        },
+        "cuban": {
+            "geo_identifier": "CUB",
+            "display_name": "Cuba"
+        },
+        "german": {
+            "geo_identifier": "DEU",
+            "display_name": "Germany"
+        },
+        "argentinian": {
+            "geo_identifier": "ARG",
+            "display_name": "Argentina"
+        },
+        "portuguese": {
+            "geo_identifier": "PRT",
+            "display_name": "Portugal"
+        },
+        "english": {
             "geo_identifier": "GBR",
-            "display_name": "Scotland"
+            "display_name": "United Kingdom"
+        },
+        "russian": {
+            "geo_identifier": "RUS",
+            "display_name": "Russia"
+        },
+        "japanese": {
+            "geo_identifier": "JPN",
+            "display_name": "Japan"
+        },
+        "finnish": {
+            "geo_identifier": "FIN",
+            "display_name": "Finland"
         }
     },
     "region": {
-        "new-mexico": {
-            "geo_identifier": "35",
-            "display_name": "New Mexico"
-        },
-        "idaho": {
-            "geo_identifier": "16",
-            "display_name": "Idaho"
-        },
-        "oklahoma": {
-            "geo_identifier": "40",
-            "display_name": "Oklahoma"
-        },
-        "west-virginia": {
-            "geo_identifier": "54",
-            "display_name": "West Virginia"
-        },
-        "pennsylvania": {
-            "geo_identifier": "42",
-            "display_name": "Pennsylvania"
-        },
-        "delaware": {
-            "geo_identifier": "10",
-            "display_name": "Delaware"
-        },
-        "alabama": {
-            "geo_identifier": "01",
-            "display_name": "Alabama"
-        },
-        "maine": {
-            "geo_identifier": "23",
-            "display_name": "Maine"
-        },
-        "oregon": {
-            "geo_identifier": "41",
-            "display_name": "Oregon"
-        },
-        "mississippi": {
-            "geo_identifier": "28",
-            "display_name": "Mississippi"
-        },
-        "north-carolina": {
-            "geo_identifier": "37",
-            "display_name": "North Carolina"
-        },
-        "new-hampshire": {
-            "geo_identifier": "33",
-            "display_name": "New Hampshire"
-        },
-        "nebraska": {
-            "geo_identifier": "31",
-            "display_name": "Nebraska"
-        },
-        "iowa": {
-            "geo_identifier": "19",
-            "display_name": "Iowa"
-        },
-        "nevada": {
-            "geo_identifier": "32",
-            "display_name": "Nevada"
-        },
-        "rhode-island": {
-            "geo_identifier": "44",
-            "display_name": "Rhode Island"
-        },
-        "montana": {
-            "geo_identifier": "30",
-            "display_name": "Montana"
-        },
-        "texas": {
-            "geo_identifier": "48",
-            "display_name": "Texas"
-        },
-        "massachusetts": {
-            "geo_identifier": "25",
-            "display_name": "Massachusetts"
-        },
-        "vermont": {
-            "geo_identifier": "50",
-            "display_name": "Vermont"
-        },
-        "virginia": {
-            "geo_identifier": "51",
-            "display_name": "Virginia"
-        },
-        "indiana": {
-            "geo_identifier": "18",
-            "display_name": "Indiana"
-        },
-        "north-dakota": {
-            "geo_identifier": "38",
-            "display_name": "North Dakota"
-        },
-        "ohio": {
-            "geo_identifier": "39",
-            "display_name": "Ohio"
-        },
-        "michigan": {
-            "geo_identifier": "26",
-            "display_name": "Michigan"
-        },
-        "new-york": {
-            "geo_identifier": "36",
-            "display_name": "New York"
-        },
-        "wisconsin": {
-            "geo_identifier": "55",
-            "display_name": "Wisconsin"
-        },
-        "new-jersey": {
-            "geo_identifier": "34",
-            "display_name": "New Jersey"
-        },
         "kansas": {
             "geo_identifier": "20",
             "display_name": "Kansas"
-        },
-        "florida": {
-            "geo_identifier": "12",
-            "display_name": "Florida"
-        },
-        "utah": {
-            "geo_identifier": "49",
-            "display_name": "Utah"
-        },
-        "hawaii": {
-            "geo_identifier": "15",
-            "display_name": "Hawaii"
-        },
-        "connecticut": {
-            "geo_identifier": "09",
-            "display_name": "Connecticut"
-        },
-        "missouri": {
-            "geo_identifier": "29",
-            "display_name": "Missouri"
-        },
-        "maryland": {
-            "geo_identifier": "24",
-            "display_name": "Maryland"
-        },
-        "arizona": {
-            "geo_identifier": "04",
-            "display_name": "Arizona"
         },
         "south-dakota": {
             "geo_identifier": "46",
             "display_name": "South Dakota"
         },
-        "illinois": {
-            "geo_identifier": "17",
-            "display_name": "Illinois"
+        "massachusetts": {
+            "geo_identifier": "25",
+            "display_name": "Massachusetts"
         },
-        "tennessee": {
-            "geo_identifier": "47",
-            "display_name": "Tennessee"
+        "virginia": {
+            "geo_identifier": "51",
+            "display_name": "Virginia"
         },
-        "arkansas": {
-            "geo_identifier": "05",
-            "display_name": "Arkansas"
-        },
-        "quebec": {
-            "geo_identifier": "invalid",
-            "display_name": "quebec"
-        },
-        "louisiana": {
-            "geo_identifier": "22",
-            "display_name": "Louisiana"
+        "idaho": {
+            "geo_identifier": "16",
+            "display_name": "Idaho"
         },
         "alaska": {
             "geo_identifier": "02",
             "display_name": "Alaska"
         },
+        "illinois": {
+            "geo_identifier": "17",
+            "display_name": "Illinois"
+        },
+        "alabama": {
+            "geo_identifier": "01",
+            "display_name": "Alabama"
+        },
+        "north-dakota": {
+            "geo_identifier": "38",
+            "display_name": "North Dakota"
+        },
+        "vermont": {
+            "geo_identifier": "50",
+            "display_name": "Vermont"
+        },
         "washington": {
             "geo_identifier": "53",
             "display_name": "Washington"
         },
-        "minnesota": {
-            "geo_identifier": "27",
-            "display_name": "Minnesota"
+        "maine": {
+            "geo_identifier": "23",
+            "display_name": "Maine"
         },
-        "colorado": {
-            "geo_identifier": "08",
-            "display_name": "Colorado"
+        "new-hampshire": {
+            "geo_identifier": "33",
+            "display_name": "New Hampshire"
         },
-        "south-carolina": {
-            "geo_identifier": "45",
-            "display_name": "South Carolina"
+        "hawaii": {
+            "geo_identifier": "15",
+            "display_name": "Hawaii"
+        },
+        "arkansas": {
+            "geo_identifier": "05",
+            "display_name": "Arkansas"
+        },
+        "montana": {
+            "geo_identifier": "30",
+            "display_name": "Montana"
+        },
+        "california": {
+            "geo_identifier": "06",
+            "display_name": "California"
+        },
+        "quebec": {
+            "geo_identifier": "invalid",
+            "display_name": "quebec"
+        },
+        "arizona": {
+            "geo_identifier": "04",
+            "display_name": "Arizona"
+        },
+        "north-carolina": {
+            "geo_identifier": "37",
+            "display_name": "North Carolina"
         },
         "kentucky": {
             "geo_identifier": "21",
             "display_name": "Kentucky"
         },
+        "maryland": {
+            "geo_identifier": "24",
+            "display_name": "Maryland"
+        },
+        "michigan": {
+            "geo_identifier": "26",
+            "display_name": "Michigan"
+        },
+        "south-carolina": {
+            "geo_identifier": "45",
+            "display_name": "South Carolina"
+        },
+        "connecticut": {
+            "geo_identifier": "09",
+            "display_name": "Connecticut"
+        },
+        "louisiana": {
+            "geo_identifier": "22",
+            "display_name": "Louisiana"
+        },
+        "nebraska": {
+            "geo_identifier": "31",
+            "display_name": "Nebraska"
+        },
+        "delaware": {
+            "geo_identifier": "10",
+            "display_name": "Delaware"
+        },
+        "texas": {
+            "geo_identifier": "48",
+            "display_name": "Texas"
+        },
+        "west-virginia": {
+            "geo_identifier": "54",
+            "display_name": "West Virginia"
+        },
+        "ohio": {
+            "geo_identifier": "39",
+            "display_name": "Ohio"
+        },
+        "pennsylvania": {
+            "geo_identifier": "42",
+            "display_name": "Pennsylvania"
+        },
+        "wisconsin": {
+            "geo_identifier": "55",
+            "display_name": "Wisconsin"
+        },
+        "mississippi": {
+            "geo_identifier": "28",
+            "display_name": "Mississippi"
+        },
+        "oklahoma": {
+            "geo_identifier": "40",
+            "display_name": "Oklahoma"
+        },
+        "oregon": {
+            "geo_identifier": "41",
+            "display_name": "Oregon"
+        },
+        "rhode-island": {
+            "geo_identifier": "44",
+            "display_name": "Rhode Island"
+        },
+        "new-york": {
+            "geo_identifier": "36",
+            "display_name": "New York"
+        },
+        "new-mexico": {
+            "geo_identifier": "35",
+            "display_name": "New Mexico"
+        },
+        "missouri": {
+            "geo_identifier": "29",
+            "display_name": "Missouri"
+        },
+        "minnesota": {
+            "geo_identifier": "27",
+            "display_name": "Minnesota"
+        },
         "wyoming": {
             "geo_identifier": "56",
             "display_name": "Wyoming"
+        },
+        "nevada": {
+            "geo_identifier": "32",
+            "display_name": "Nevada"
+        },
+        "colorado": {
+            "geo_identifier": "08",
+            "display_name": "Colorado"
+        },
+        "indiana": {
+            "geo_identifier": "18",
+            "display_name": "Indiana"
+        },
+        "utah": {
+            "geo_identifier": "49",
+            "display_name": "Utah"
+        },
+        "florida": {
+            "geo_identifier": "12",
+            "display_name": "Florida"
+        },
+        "new-jersey": {
+            "geo_identifier": "34",
+            "display_name": "New Jersey"
+        },
+        "iowa": {
+            "geo_identifier": "19",
+            "display_name": "Iowa"
+        },
+        "tennessee": {
+            "geo_identifier": "47",
+            "display_name": "Tennessee"
+        }
+    },
+    "city": {
+        "houston": {
+            "geo_identifier": "Houston",
+            "display_name": "Houston"
+        },
+        "indianapolis": {
+            "geo_identifier": "Indianapolis",
+            "display_name": "Indianapolis"
+        },
+        "new-orleans": {
+            "geo_identifier": "New Orleans",
+            "display_name": "New Orleans"
+        },
+        "oakland": {
+            "geo_identifier": "San Francisco",
+            "display_name": "Oakland"
+        },
+        "washington-dc": {
+            "geo_identifier": "Washington",
+            "display_name": "Washington"
+        },
+        "atlanta": {
+            "geo_identifier": "Atlanta",
+            "display_name": "Atlanta"
+        },
+        "dallas": {
+            "geo_identifier": "Dallas",
+            "display_name": "Dallas"
+        },
+        "boston": {
+            "geo_identifier": "Boston",
+            "display_name": "Boston"
+        },
+        "los-angeles": {
+            "geo_identifier": "Los Angeles",
+            "display_name": "Los Angeles"
+        },
+        "detroit": {
+            "geo_identifier": "Detroit",
+            "display_name": "Detroit"
+        },
+        "san-diego": {
+            "geo_identifier": "San Diego",
+            "display_name": "San Diego"
+        },
+        "san-francisco": {
+            "geo_identifier": "San Francisco",
+            "display_name": "San Francisco"
+        },
+        "new-york-city": {
+            "geo_identifier": "New York City",
+            "display_name": "New York City"
+        },
+        "st-louis": {
+            "geo_identifier": "St. Louis",
+            "display_name": "St. Louis"
+        },
+        "pittsburgh": {
+            "geo_identifier": "Pittsburgh",
+            "display_name": "Pittsburgh"
+        },
+        "philadelphia": {
+            "geo_identifier": "Philadelphia",
+            "display_name": "Philadelphia"
+        },
+        "georgia": {
+            "geo_identifier": "Atlanta",
+            "display_name": "Atlanta"
+        },
+        "toronto": {
+            "geo_identifier": "Toronto",
+            "display_name": "Toronto"
+        },
+        "new-york": {
+            "geo_identifier": "New York City",
+            "display_name": "New York City"
+        },
+        "milwaukee": {
+            "geo_identifier": "Milwaukee",
+            "display_name": "Milwaukee"
+        },
+        "minneapolis": {
+            "geo_identifier": "Minneapolis",
+            "display_name": "Minneapolis"
+        },
+        "buffalo": {
+            "geo_identifier": "Buffalo",
+            "display_name": "Buffalo"
+        },
+        "vancouver": {
+            "geo_identifier": "Vancouver",
+            "display_name": "Vancouver"
+        },
+        "chicago": {
+            "geo_identifier": "Chicago",
+            "display_name": "Chicago"
+        },
+        "miami": {
+            "geo_identifier": "Miami",
+            "display_name": "Miami"
+        },
+        "tampa-bay": {
+            "geo_identifier": "Tampa",
+            "display_name": "Tampa Bay"
+        },
+        "california": {
+            "geo_identifier": "Riverside",
+            "display_name": "California (Riverside)"
+        },
+        "green-bay": {
+            "geo_identifier": "Milwaukee",
+            "display_name": "Green Bay"
+        },
+        "baltimore": {
+            "geo_identifier": "Baltimore",
+            "display_name": "Baltimore"
+        },
+        "seattle": {
+            "geo_identifier": "Seattle",
+            "display_name": "Seattle"
+        },
+        "cincinnati": {
+            "geo_identifier": "Cincinnati",
+            "display_name": "Cincinnati"
+        },
+        "kansas-city": {
+            "geo_identifier": "Kansas City",
+            "display_name": "Kansas City"
+        },
+        "cleveland": {
+            "geo_identifier": "Cleveland",
+            "display_name": "Cleveland"
         }
     }
 }

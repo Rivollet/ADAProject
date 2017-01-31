@@ -1,171 +1,171 @@
 {
     "per_city": {
-        "vancouver": {
-            "nbRecipes": 127,
-            "total_vitaminA_Intake": 102112.4902423,
-            "avg_calories": 342.3823438095
-        },
-        "atlanta": {
-            "nbRecipes": 28,
-            "total_vitaminA_Intake": 85023.39307,
-            "avg_calories": 424.3144992857
-        },
-        "boston": {
-            "nbRecipes": 12,
-            "total_vitaminA_Intake": 2768.165049,
-            "avg_calories": 411.6663833333
-        },
-        "minneapolis": {
-            "nbRecipes": 29,
-            "total_vitaminA_Intake": 54923.347647,
-            "avg_calories": 426.5461631034
-        },
-        "georgia": {
-            "nbRecipes": 71,
-            "total_vitaminA_Intake": 128067.02551,
-            "avg_calories": 358.6492397143
-        },
-        "cleveland": {
-            "nbRecipes": 33,
-            "total_vitaminA_Intake": 36406.27513367,
-            "avg_calories": 429.2601442424
-        },
-        "toronto": {
-            "nbRecipes": 64,
-            "total_vitaminA_Intake": 77310.15675,
-            "avg_calories": 394.5755590625
-        },
-        "new-orleans": {
-            "nbRecipes": 46,
-            "total_vitaminA_Intake": 42673.55009,
-            "avg_calories": 445.9402834884
-        },
-        "san-francisco": {
-            "nbRecipes": 41,
-            "total_vitaminA_Intake": 48289.644985,
-            "avg_calories": 291.9175343171
-        },
-        "green-bay": {
-            "nbRecipes": 16,
-            "total_vitaminA_Intake": 15783.76384,
-            "avg_calories": 407.6131015385
-        },
-        "dallas": {
-            "nbRecipes": 29,
-            "total_vitaminA_Intake": 62139.256174,
-            "avg_calories": 281.9190327586
-        },
         "san-diego": {
             "nbRecipes": 31,
-            "total_vitaminA_Intake": 79246.54578,
-            "avg_calories": 401.5872333333
-        },
-        "pittsburgh": {
-            "nbRecipes": 28,
-            "total_vitaminA_Intake": 21015.999857,
-            "avg_calories": 483.6879928571
-        },
-        "philadelphia": {
-            "nbRecipes": 50,
-            "total_vitaminA_Intake": 46122.68971,
-            "avg_calories": 510.41504
-        },
-        "detroit": {
-            "nbRecipes": 12,
-            "total_vitaminA_Intake": 10969.15789,
-            "avg_calories": 311.01333
-        },
-        "tampa-bay": {
-            "nbRecipes": 28,
-            "total_vitaminA_Intake": 21437.77378,
-            "avg_calories": 337.8598092308
-        },
-        "new-york-city": {
-            "nbRecipes": 125,
-            "total_vitaminA_Intake": 171463.7429213,
-            "avg_calories": 411.8799015702
-        },
-        "miami": {
-            "nbRecipes": 12,
-            "total_vitaminA_Intake": 5344.37133,
-            "avg_calories": 446.1634
-        },
-        "chicago": {
-            "nbRecipes": 11,
-            "total_vitaminA_Intake": 12753.8676,
-            "avg_calories": 403.8004090909
-        },
-        "california": {
-            "nbRecipes": 250,
-            "total_vitaminA_Intake": 369048.0162120002,
-            "avg_calories": 361.590713878
-        },
-        "indianapolis": {
-            "nbRecipes": 15,
-            "total_vitaminA_Intake": 12283.5292282,
-            "avg_calories": 425.4122357143
-        },
-        "houston": {
-            "nbRecipes": 18,
-            "total_vitaminA_Intake": 23852.887483,
-            "avg_calories": 366.3758511111
-        },
-        "los-angeles": {
-            "nbRecipes": 30,
-            "total_vitaminA_Intake": 51044.61844,
-            "avg_calories": 374.2129283333
-        },
-        "st-louis": {
-            "nbRecipes": 27,
-            "total_vitaminA_Intake": 38558.02665,
-            "avg_calories": 485.8434666667
-        },
-        "seattle": {
-            "nbRecipes": 67,
-            "total_vitaminA_Intake": 138905.35251,
-            "avg_calories": 415.338245
-        },
-        "washington-dc": {
-            "nbRecipes": 17,
-            "total_vitaminA_Intake": 9453.05414,
-            "avg_calories": 291.5897064706
-        },
-        "milwaukee": {
-            "nbRecipes": 27,
-            "total_vitaminA_Intake": 26335.21554,
-            "avg_calories": 344.2545928571
-        },
-        "kansas-city": {
-            "nbRecipes": 24,
-            "total_vitaminA_Intake": 36884.11005,
-            "avg_calories": 300.2158104545
-        },
-        "buffalo": {
-            "nbRecipes": 41,
-            "total_vitaminA_Intake": 24065.911712,
-            "avg_calories": 274.4892507317
-        },
-        "oakland": {
-            "nbRecipes": 26,
-            "total_vitaminA_Intake": 39844.8466,
-            "avg_calories": 448.8614230769
-        },
-        "baltimore": {
-            "nbRecipes": 40,
-            "total_vitaminA_Intake": 27968.763135,
-            "avg_calories": 282.5841822308
+            "avg_calories": 401.5872333333,
+            "total_vitaminA_Intake": 79246.54578
         },
         "cincinnati": {
             "nbRecipes": 12,
-            "total_vitaminA_Intake": 39608.794,
-            "avg_calories": 424.625025
+            "avg_calories": 424.625025,
+            "total_vitaminA_Intake": 39608.794
+        },
+        "washington-dc": {
+            "nbRecipes": 17,
+            "avg_calories": 291.5897064706,
+            "total_vitaminA_Intake": 9453.05414
+        },
+        "chicago": {
+            "nbRecipes": 11,
+            "avg_calories": 403.8004090909,
+            "total_vitaminA_Intake": 12753.8676
+        },
+        "dallas": {
+            "nbRecipes": 29,
+            "avg_calories": 281.9190327586,
+            "total_vitaminA_Intake": 62139.256174
+        },
+        "new-york-city": {
+            "nbRecipes": 125,
+            "avg_calories": 411.8799015702,
+            "total_vitaminA_Intake": 171463.7429213
+        },
+        "san-francisco": {
+            "nbRecipes": 41,
+            "avg_calories": 291.9175343171,
+            "total_vitaminA_Intake": 48289.644985
+        },
+        "california": {
+            "nbRecipes": 250,
+            "avg_calories": 361.590713878,
+            "total_vitaminA_Intake": 369048.0162120002
+        },
+        "tampa-bay": {
+            "nbRecipes": 28,
+            "avg_calories": 337.8598092308,
+            "total_vitaminA_Intake": 21437.77378
+        },
+        "indianapolis": {
+            "nbRecipes": 15,
+            "avg_calories": 425.4122357143,
+            "total_vitaminA_Intake": 12283.5292282
+        },
+        "houston": {
+            "nbRecipes": 18,
+            "avg_calories": 366.3758511111,
+            "total_vitaminA_Intake": 23852.887483
+        },
+        "minneapolis": {
+            "nbRecipes": 29,
+            "avg_calories": 426.5461631034,
+            "total_vitaminA_Intake": 54923.347647
+        },
+        "atlanta": {
+            "nbRecipes": 28,
+            "avg_calories": 424.3144992857,
+            "total_vitaminA_Intake": 85023.39307
+        },
+        "green-bay": {
+            "nbRecipes": 16,
+            "avg_calories": 407.6131015385,
+            "total_vitaminA_Intake": 15783.76384
+        },
+        "st-louis": {
+            "nbRecipes": 27,
+            "avg_calories": 485.8434666667,
+            "total_vitaminA_Intake": 38558.02665
+        },
+        "kansas-city": {
+            "nbRecipes": 24,
+            "avg_calories": 300.2158104545,
+            "total_vitaminA_Intake": 36884.11005
+        },
+        "oakland": {
+            "nbRecipes": 26,
+            "avg_calories": 448.8614230769,
+            "total_vitaminA_Intake": 39844.8466
+        },
+        "pittsburgh": {
+            "nbRecipes": 28,
+            "avg_calories": 483.6879928571,
+            "total_vitaminA_Intake": 21015.999857
+        },
+        "philadelphia": {
+            "nbRecipes": 50,
+            "avg_calories": 510.41504,
+            "total_vitaminA_Intake": 46122.68971
+        },
+        "detroit": {
+            "nbRecipes": 12,
+            "avg_calories": 311.01333,
+            "total_vitaminA_Intake": 10969.15789
+        },
+        "vancouver": {
+            "nbRecipes": 127,
+            "avg_calories": 342.3823438095,
+            "total_vitaminA_Intake": 102112.4902423
+        },
+        "buffalo": {
+            "nbRecipes": 41,
+            "avg_calories": 274.4892507317,
+            "total_vitaminA_Intake": 24065.911712
+        },
+        "los-angeles": {
+            "nbRecipes": 30,
+            "avg_calories": 374.2129283333,
+            "total_vitaminA_Intake": 51044.61844
+        },
+        "milwaukee": {
+            "nbRecipes": 27,
+            "avg_calories": 344.2545928571,
+            "total_vitaminA_Intake": 26335.21554
+        },
+        "baltimore": {
+            "nbRecipes": 40,
+            "avg_calories": 282.5841822308,
+            "total_vitaminA_Intake": 27968.763135
+        },
+        "new-orleans": {
+            "nbRecipes": 46,
+            "avg_calories": 445.9402834884,
+            "total_vitaminA_Intake": 42673.55009
+        },
+        "toronto": {
+            "nbRecipes": 64,
+            "avg_calories": 394.5755590625,
+            "total_vitaminA_Intake": 77310.15675
+        },
+        "georgia": {
+            "nbRecipes": 71,
+            "avg_calories": 358.6492397143,
+            "total_vitaminA_Intake": 128067.02551
+        },
+        "miami": {
+            "nbRecipes": 12,
+            "avg_calories": 446.1634,
+            "total_vitaminA_Intake": 5344.37133
+        },
+        "cleveland": {
+            "nbRecipes": 33,
+            "avg_calories": 429.2601442424,
+            "total_vitaminA_Intake": 36406.27513367
+        },
+        "seattle": {
+            "nbRecipes": 67,
+            "avg_calories": 415.338245,
+            "total_vitaminA_Intake": 138905.35251
+        },
+        "boston": {
+            "nbRecipes": 12,
+            "avg_calories": 411.6663833333,
+            "total_vitaminA_Intake": 2768.165049
         }
     },
     "global": {
         "Global aggregation": {
-            "nbRecipes": 16242,
-            "total_vitaminA_Intake": 22703227.41110853,
-            "avg_calories": 350.2467986302
+            "nbRecipes": 14488,
+            "avg_calories": 352.5076144919,
+            "total_vitaminA_Intake": 19594321.77425986
         }
     }
 }
