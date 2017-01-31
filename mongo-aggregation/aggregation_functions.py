@@ -1,7 +1,10 @@
+# contains functions to do aggregations on mongodb database
+
+
+
 import pandas as pd
 #import json
 
-# contains functions to do aggregations on mongodb database
 
 
 def group_and_get_aggregate_of_field(collection, group_by_field_address, aggregate_field_address, 

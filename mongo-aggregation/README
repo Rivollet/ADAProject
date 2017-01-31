@@ -1,0 +1,16 @@
+This directory performs the aggregation queries for the recipes, e.g. getting the average amounts of nutrition grouped by country or US states. 
+It creates a JSON with the aggregated data that can be loaded by the website.
+
+In addition, it associates the geoJSON identifier to all location names (only country names and US state names here, but easily extensible) in the JSON files. E.g. the JSON file contains the data grouped by country, then it adds e.g. the geoJSON identifier for Switzerland, ...
+
+The ipython (jupyter notebook) scripts should be run in the following order:
+a) create_aggregated_JSONs_from_database.ipynb
+b) database_locations_to_geojson_ids.ipynb
+c) merge_geo_identifier_and_nutritions.ipynb
+
+a) does the aggregation, b) gets all locations mentioned in the database and associates them to the geoJSON identifier, c) merges the aggregated data with these geoJSON identifiers and adds nutrition. The resulting data is saved in fullAggregatedData.json in the website directory.
+
+The JSON file is stored in the website/data directory.
+
+The scripts also add the daily intake reference values to the JSON.
+

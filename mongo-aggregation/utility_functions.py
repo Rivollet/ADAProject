@@ -1,3 +1,7 @@
+# helper functions
+# contains mostly functions to write to JSON
+
+
 import json
 
 
