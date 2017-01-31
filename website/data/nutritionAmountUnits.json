@@ -1,122 +1,122 @@
 {
-    "1": {
-        "nutrition": "avg_nutrition_cholesterol",
-        "observed units": [
-            "mg"
-        ]
-    },
-    "11": {
-        "nutrition": "avg_nutrition_thiamin",
-        "observed units": [
-            "mg"
-        ]
-    },
-    "8": {
-        "nutrition": "avg_nutrition_folate",
-        "observed units": [
-            "mcg"
-        ]
-    },
-    "17": {
-        "nutrition": "avg_nutrition_sugars",
-        "observed units": [
-            "g"
-        ]
-    },
-    "18": {
-        "nutrition": "avg_nutrition_calories",
-        "observed units": [
-            "kcal"
-        ]
-    },
-    "13": {
-        "nutrition": "avg_nutrition_calcium",
-        "observed units": [
-            "mg"
-        ]
-    },
-    "7": {
-        "nutrition": "avg_nutrition_potassium",
-        "observed units": [
-            "mg"
-        ]
-    },
-    "6": {
-        "nutrition": "avg_nutrition_saturatedFat",
-        "observed units": [
-            "g"
-        ]
-    },
-    "3": {
-        "nutrition": "avg_nutrition_fiber",
-        "observed units": [
-            "g"
-        ]
-    },
-    "5": {
-        "nutrition": "avg_nutrition_iron",
-        "observed units": [
-            "mg"
-        ]
-    },
-    "14": {
-        "nutrition": "avg_nutrition_sodium",
-        "observed units": [
-            "mg"
-        ]
-    },
-    "2": {
-        "nutrition": "avg_nutrition_vitaminA",
-        "observed units": [
-            "IU"
-        ]
-    },
-    "12": {
-        "nutrition": "avg_nutrition_niacin",
-        "observed units": [
-            "mg"
-        ]
-    },
-    "0": {
-        "nutrition": "avg_nutrition_vitaminB6",
-        "observed units": [
-            "mg"
-        ]
-    },
-    "16": {
-        "nutrition": "avg_nutrition_vitaminC",
-        "observed units": [
-            "mg"
-        ]
-    },
     "10": {
-        "nutrition": "avg_nutrition_magnesium",
         "observed units": [
             "mg"
-        ]
-    },
-    "15": {
-        "nutrition": "avg_nutrition_caloriesFromFat",
-        "observed units": [
-            "kcal"
-        ]
+        ],
+        "nutrition": "avg_nutrition_calcium"
     },
     "9": {
-        "nutrition": "avg_nutrition_fat",
+        "observed units": [
+            "mg"
+        ],
+        "nutrition": "avg_nutrition_vitaminB6"
+    },
+    "1": {
+        "observed units": [
+            "mg"
+        ],
+        "nutrition": "avg_nutrition_magnesium"
+    },
+    "14": {
         "observed units": [
             "g"
-        ]
+        ],
+        "nutrition": "avg_nutrition_fiber"
+    },
+    "6": {
+        "observed units": [
+            "mg"
+        ],
+        "nutrition": "avg_nutrition_niacin"
+    },
+    "12": {
+        "observed units": [
+            "mg"
+        ],
+        "nutrition": "avg_nutrition_potassium"
+    },
+    "18": {
+        "observed units": [
+            "kcal"
+        ],
+        "nutrition": "avg_nutrition_caloriesFromFat"
+    },
+    "17": {
+        "observed units": [
+            "mg"
+        ],
+        "nutrition": "avg_nutrition_vitaminC"
+    },
+    "15": {
+        "observed units": [
+            "IU"
+        ],
+        "nutrition": "avg_nutrition_vitaminA"
     },
     "4": {
-        "nutrition": "avg_nutrition_carbohydrates",
         "observed units": [
             "g"
-        ]
+        ],
+        "nutrition": "avg_nutrition_saturatedFat"
+    },
+    "16": {
+        "observed units": [
+            "kcal"
+        ],
+        "nutrition": "avg_nutrition_calories"
+    },
+    "11": {
+        "observed units": [
+            "g"
+        ],
+        "nutrition": "avg_nutrition_protein"
+    },
+    "2": {
+        "observed units": [
+            "mg"
+        ],
+        "nutrition": "avg_nutrition_iron"
+    },
+    "3": {
+        "observed units": [
+            "g"
+        ],
+        "nutrition": "avg_nutrition_sugars"
+    },
+    "8": {
+        "observed units": [
+            "g"
+        ],
+        "nutrition": "avg_nutrition_carbohydrates"
+    },
+    "13": {
+        "observed units": [
+            "mg"
+        ],
+        "nutrition": "avg_nutrition_thiamin"
+    },
+    "7": {
+        "observed units": [
+            "mg"
+        ],
+        "nutrition": "avg_nutrition_cholesterol"
+    },
+    "0": {
+        "observed units": [
+            "mg"
+        ],
+        "nutrition": "avg_nutrition_sodium"
     },
     "19": {
-        "nutrition": "avg_nutrition_protein",
+        "observed units": [
+            "mcg"
+        ],
+        "nutrition": "avg_nutrition_folate"
+    },
+    "5": {
         "observed units": [
             "g"
-        ]
+        ],
+        "nutrition": "avg_nutrition_fat"
     }
 }

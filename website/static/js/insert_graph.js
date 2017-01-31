@@ -7,7 +7,7 @@ function insert_graph(
     metadata,
     map_chart,
     nb_recipes_chart,
-    ready_in_chart,
+    //ready_in_chart,
     nutriment_chart,
     top_countries_chart,
     worst_countries_chart) {
@@ -22,7 +22,7 @@ function insert_graph(
     var geo_metadata = null;
 
     var width_map = getWidth(selector);
-    var height_map = width_map / 1.5;
+    var height_map = width_map / 1.6;
 
     /* =========================================================================
     Data mode selection
@@ -44,6 +44,11 @@ function insert_graph(
             return d.id;
         };
     }
+
+    $("#button" + selector).click(function() {
+        map_chart.filterAll();
+        dc.redrawAll();
+    });
 
     /* ===========================================================================
     Data dimension
@@ -90,8 +95,10 @@ function insert_graph(
         return -p.final.value;
     });
 
-    var nb_recipes = geo_dim.groupAll().reduce(reduce_add_sum(), reduce_remove_sum(), reduce_init_sum());
-    var avg_readyInMinutes = ndx.groupAll().reduce(reduce_add_avg('avg_readyInMinutes'), reduce_remove_avg('avg_readyInMinutes'), reduce_init_sum());
+    var nb_recipes = nutriment_dim.group().reduceSum(function(d) {
+        return d.nbRecipes;
+    })
+    //var avg_readyInMinutes = ndx.groupAll().reduce(reduce_add_avg('avg_readyInMinutes'), reduce_remove_avg('avg_readyInMinutes'), reduce_init_sum());
 
     /* CHART 1 ============================================================== */
     nutriment_chart
@@ -103,6 +110,7 @@ function insert_graph(
         .addFilterHandler(function(filters, filter) {
             filters.length = 0; // empty the array
             filters.push(filter);
+            map_chart.filterAll();
             return filters;
         })
         .valueAccessor(function(d) {
@@ -136,11 +144,11 @@ function insert_graph(
                 }
             },
             {
-                label: 'Value',
+                label: '',
                 format: function(d) {
                     var format = d3.format(".0%");
                     if (d.value.final.key == null) {
-                        return d.value.final.value;
+                        return d.value.final.value + " Recipes";
                     } else {
                         return format(d.value.final.value);
                     }
@@ -156,17 +164,17 @@ function insert_graph(
             return ""
         })
         .columns([{
-                label: 'Country',
+                label: capitalizeFirstLetter(geo_type),
                 format: function(d) {
                     return geo_metadata[d.key].display_name;
                 }
             },
             {
-                label: 'Value',
+                label: '',
                 format: function(d) {
                     var format = d3.format(".0%");
                     if (d.value.final.key == null) {
-                        return d.value.final.value;
+                        return d.value.final.value + " Recipes";
                     } else {
                         return format(d.value.final.value);
                     }
@@ -231,18 +239,9 @@ function insert_graph(
 
     /* CHART 5 ============================================================== */
     nb_recipes_chart
+        .dimension(nutriment_dim)
         .formatNumber(d3.format(".3s"))
-        .valueAccessor(function(d) {
-            return d.sum_value;
-        })
-        .group(total_by_geo)
-
-    /* CHART 6 ============================================================== */
-    ready_in_chart.formatNumber(d3.format(".3s"))
-        .valueAccessor(function(d) {
-            return d.avg;
-        })
-        .group(avg_readyInMinutes)
+        .group(nb_recipes);
 
     dc.renderAll();
 
@@ -281,4 +280,8 @@ function create_range_color(color) {
         c.push(range(i));
     }
     return c;
+}
+
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
 }

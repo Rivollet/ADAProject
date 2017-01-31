@@ -475,7 +475,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 1
+            "order": 5
         },
         "butter": {
             "name": "Butter",
@@ -483,7 +483,31 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 2
+            "order": 3
+        },
+        "carrot": {
+            "name": "Carrot",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 7
+        },
+        "avocado": {
+            "name": "Avocado",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 13
+        },
+        "bacon": {
+            "name": "Bacon",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 11
         },
         "chicken": {
             "name": "Chicken",
@@ -491,7 +515,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 3
+            "order": 4
         },
         "database_name": {
             "name": "database_name",
@@ -507,7 +531,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 4
+            "order": 2
         },
         "geo_identifier": {
             "name": "geo_identifier",
@@ -525,13 +549,45 @@
             "color": null,
             "order": 0
         },
+        "ketchup": {
+            "name": "Ketchup",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 13
+        },
+        "maple syrup": {
+            "name": "Maple Syrup",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 15
+        },
+        "salt": {
+            "name": "Salt",
+            "unit": "frac",
+            "nutriment_chart": false,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 2
+        },
+        "strawberry": {
+            "name": "Strawberry",
+            "unit": "frac",
+            "nutriment_chart": true,
+            "reduction_rule": "wavg",
+            "color": "#1E96FF",
+            "order": 14
+        },
         "mozzarella": {
             "name": "Mozzarella",
             "unit": "frac",
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 5
+            "order": 10
         },
         "nbRecipes": {
             "name": "geo_identifier",
@@ -547,7 +603,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 6
+            "order": 1
         },
         "pork": {
             "name": "Pork",
@@ -555,7 +611,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 7
+            "order": 9
         },
         "rice": {
             "name": "Rice",
@@ -563,7 +619,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": null,
-            "order": 0
+            "order": 6
         },
         "shrimp": {
             "name": "Shrimp",
@@ -571,7 +627,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 8
+            "order": 11
         },
         "soy sauce": {
             "name": "Soy Sauce",
@@ -579,7 +635,7 @@
             "nutriment_chart": true,
             "reduction_rule": "wavg",
             "color": "#1E96FF",
-            "order": 9
+            "order": 8
         }
     },
 
@@ -825,9 +881,9 @@
             "display_name": "Bangladesh",
             "base_name": "bangladeshi"
         },
-        "NZL": {
-            "geo_identifier": "NZL",
-            "display_name": "New Zealand",
+        "AUS": {
+            "geo_identifier": "AUS",
+            "display_name": "Australia",
             "base_name": "australian-and-new-zealander"
         }
     },
