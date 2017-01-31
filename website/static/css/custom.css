@@ -89,6 +89,9 @@ h3 {
   background-color: #77b5ea;
 }
 
+.button-reset-map:active {
+  background-color: #6095c1;
+}
 
 .switch-field {
     font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;

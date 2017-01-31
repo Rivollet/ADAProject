@@ -112,6 +112,7 @@ function insert_graph(
         .addFilterHandler(function(filters, filter) {
             filters.length = 0; // empty the array
             filters.push(filter);
+            map_chart.filterAll();
             return filters;
         })
         .valueAccessor(function(d) {
