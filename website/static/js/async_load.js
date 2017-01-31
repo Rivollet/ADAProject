@@ -20,7 +20,8 @@ var q_by_nutriment = queue()
     .defer(d3.json, 'data/metadata.json')
     .await(dashboard_by_nutriment);
 
-var defautColor = "#0089FF";
+var defautColor = "#77b5ea";
+//var defautColor = "#919191";
 var defautColors = ['#DDDDDD', "#E2F2FF", "#C4E4FF", "#9ED2FF", "#81C5FF", "#6BBAFF", "#51AEFF", "#36A2FF", "#1E96FF", "#0089FF", "#0061B5"];
 var colors20 = d3.scale.category20b();
 
@@ -31,7 +32,7 @@ function dashboard_by_type(error, init_data, geo_countries, geo_states, metadata
 
     var map_chart = dc.geoChoroplethChart("#map-chart1");
     var nb_recipes_chart = dc.numberDisplay("#total-recipes1");
-    var ready_in_chart = dc.numberDisplay("#ready_in1");
+    //var ready_in_chart = dc.numberDisplay("#ready_in1");
     var nutriment_chart = dc.rowChart("#resource-type-row-chart1");
     var top_countries_chart = dc.dataTable("#top_country_table1");
     var worst_countries_chart = dc.dataTable("#worst_country_table1");
@@ -45,7 +46,7 @@ function dashboard_by_type(error, init_data, geo_countries, geo_states, metadata
         metadata,
         map_chart,
         nb_recipes_chart,
-        ready_in_chart,
+        //ready_in_chart,
         nutriment_chart,
         top_countries_chart,
         worst_countries_chart
@@ -58,7 +59,7 @@ function dashboard_by_ingredient(error, init_data, geo_countries, geo_states, me
 
     var map_chart = dc.geoChoroplethChart("#map-chart2");
     var nb_recipes_chart = dc.numberDisplay("#total-recipes2");
-    var ready_in_chart = dc.numberDisplay("#ready_in2");
+    //var ready_in_chart = dc.numberDisplay("#ready_in2");
     var nutriment_chart = dc.rowChart("#resource-type-row-chart2");
     var top_countries_chart = dc.dataTable("#top_country_table2");
     var worst_countries_chart = dc.dataTable("#worst_country_table2");
@@ -72,7 +73,7 @@ function dashboard_by_ingredient(error, init_data, geo_countries, geo_states, me
         metadata,
         map_chart,
         nb_recipes_chart,
-        ready_in_chart,
+        //ready_in_chart,
         nutriment_chart,
         top_countries_chart,
         worst_countries_chart
@@ -85,7 +86,7 @@ function dashboard_by_nutriment(error, init_data, geo_countries, geo_states, met
 
     var map_chart = dc.geoChoroplethChart("#map-chart3");
     var nb_recipes_chart = dc.numberDisplay("#total-recipes3");
-    var ready_in_chart = dc.numberDisplay("#ready_in3");
+    //var ready_in_chart = dc.numberDisplay("#ready_in3");
     var nutriment_chart = dc.rowChart("#resource-type-row-chart3");
     var top_countries_chart = dc.dataTable("#top_country_table3");
     var worst_countries_chart = dc.dataTable("#worst_country_table3");
@@ -99,23 +100,29 @@ function dashboard_by_nutriment(error, init_data, geo_countries, geo_states, met
         metadata,
         map_chart,
         nb_recipes_chart,
-        ready_in_chart,
+        //ready_in_chart,
         nutriment_chart,
         top_countries_chart,
         worst_countries_chart
     );
 }
 
-/* Listeners */
-d3.select('#geo_selection1').on("change", function() {
-    q_by_type.await(dashboard_by_type);
+$(document).ready(function() {
+    /* Listeners */
+    $('#geo_selection1').on("change", function() {
+        q_by_type.await(dashboard_by_type);
+    });
+    $('#geo_selection2').on("change", function() {
+        q_by_ingredient.await(dashboard_by_ingredient);
+    });
+    $('#geo_selection3').on("change", function() {
+        q_by_nutriment.await(dashboard_by_nutriment);
+    });
 });
-d3.select('#geo_selection2').on("change", function() {
-    q_by_ingredient.await(dashboard_by_ingredient);
-});
-d3.select('#geo_selection3').on("change", function() {
-    q_by_nutriment.await(dashboard_by_nutriment);
-});
+
+
+
+
 
 $(window).resize(function() {
     clearTimeout(window.resizedFinished);
