@@ -3,7 +3,7 @@ Project for Applied Data Analysis class at EPFL.
 
 ** PROJECT WEBSITE: http://cocotte-minute.ovh/ada/ **
 
-*Groupe composed by: Loïc Veyssière, Maximilian Mordig, David Rivollet*
+*Group composed of: Loïc Veyssière, Maximilian Mordig, David Rivollet*
 
 ## Abstract
 The objective of our project is to analyze recipes from around the world in order to observe cultural differences between world regions. We are going to use interactive and intuitive visualisation to show these differences expressed through the type of food populations eat. One example of such interactive graph would be to show by countries the nutriments contented in the recipes (ex: fat, proteins, salt, etc..). We can also analyze where in the world a specific ingredient (ex: beef, rice, butter, etc..) is mostly consumed.
