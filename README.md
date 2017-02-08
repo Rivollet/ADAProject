@@ -1,6 +1,8 @@
 # ADAProject: World recipes viz
 Project for Applied Data Analysis class at EPFL.
 
+** PROJECT WEBSITE: http://cocotte-minute.ovh/ada/ **
+
 *Group composed of: Loïc Veyssière, Maximilian Mordig, David Rivollet*
 
 ## Abstract
