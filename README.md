@@ -6,6 +6,29 @@ Project for Applied Data Analysis class at EPFL.
 ## Abstract
 The objective of our project is to analyze recipes from around the world in order to observe cultural differences between world regions. We are going to use interactive and intuitive visualisation to show these differences expressed through the type of food populations eat. One example of such interactive graph would be to show by countries the nutriments contented in the recipes (ex: fat, proteins, salt, etc..). We can also analyze where in the world a specific ingredient (ex: beef, rice, butter, etc..) is mostly consumed.
 
+## Presentation of the final work
+
+The visualization consists in a webpage, visit it:
+
+[http://www.cocotte-minute.ovh/ada](http://www.cocotte-minute.ovh/ada)
+
+we present three slides for both world and US geographical repartition:
+* A food type selection
+
+![Viz_spices](poster/Viz_spices.png "Food Type Selection")
+
+* An ingredient selection
+
+![Viz_states](poster/Viz_states.png "Ingredient Selection")
+
+* A nutriment selection
+
+![Viz_countries](poster/Viz_countries.png "Nutriment Selection")
+
+## Poster
+
+![Poster](poster/poster.pdf "Poster")
+
 ## Data description
 For this project, we will need a lot of recipes in order to have relevant conclusion. Moreover, these recipes need to have the specific information on their geographical origin. The American website [allrecipes.com](http://allrecipes.com/) is one of the most famous webpage for recipe storage on the internet. Thousands of recipes are accessible with all the information needed.
 
