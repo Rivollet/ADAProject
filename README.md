@@ -12,7 +12,7 @@ The objective of our project is to analyze recipes from around the world in orde
 
 The visualization consists in a webpage, visit it:
 
-[http://www.cocotte-minute.ovh/ada](http://www.cocotte-minute.ovh/ada)
+[http://cocotte-minute.ovh/ada/](http://cocotte-minute.ovh/ada/)
 
 we present three slides for both world and US geographical repartition:
 * A food type selection
@@ -29,7 +29,7 @@ we present three slides for both world and US geographical repartition:
 
 ## Poster
 
-![Poster](poster/poster.pdf "Poster")
+![Poster](poster/poster_low.png "Poster")
 
 ## Data description
 For this project, we will need a lot of recipes in order to have relevant conclusion. Moreover, these recipes need to have the specific information on their geographical origin. The American website [allrecipes.com](http://allrecipes.com/) is one of the most famous webpage for recipe storage on the internet. Thousands of recipes are accessible with all the information needed.
