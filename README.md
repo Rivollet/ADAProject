@@ -6,7 +6,7 @@ Project for Applied Data Analysis class at EPFL.
 *Group composed of: Loïc Veyssière, Maximilian Mordig, David Rivollet*
 
 ## Abstract
-The objective of our project is to analyze recipes from around the world in order to observe cultural differences between world regions. We are going to use interactive and intuitive visualisation to show these differences expressed through the type of food populations eat. One example of such interactive graph would be to show by countries the nutriments contented in the recipes (ex: fat, proteins, salt, etc..). We can also analyze where in the world a specific ingredient (ex: beef, rice, butter, etc..) is mostly consumed.
+The objective of our project is to analyze recipes from around the world in order to observe cultural differences among world regions. We are going to use interactive and intuitive visualisation to show these differences expressed through the type of food populations eat. One example of such interactive graph would be to show by countries the nutriments contented in the recipes (ex: fat, proteins, salt, etc..). We can also analyze where in the world a specific ingredient (ex: beef, rice, butter, etc..) is mostly consumed.
 
 ## Presentation of the final work
 
@@ -62,16 +62,16 @@ Finally, another big risk of our problem would be an inconsistent repartition of
 Our project is going to be presented as a website form where the user will be able to "play" with different interactive visualizations. The principal viz is going to be a map of the world, where one can observe different food and nutriment consumption of the population depending on their world region and ethnic origins. For some specific output, we are also going to make link with other information as the percentage of obese or population mean lifetime to show how food influence health and lifestyle of people.
 
 ## Timeplan
-**7 november 2016:** Start of the project
+~~**7 november 2016:** Start of the project~~
 
-**14 november 2016:** Get data needed from the website
+~~**14 november 2016:** Get data needed from the website~~
 
-**30 november 2016:** Cleaned data divided correctly by world region
+~~**30 november 2016:** Cleaned data divided correctly by world region~~
 
-**12 december 2016:** Midterm checkpoint - Examples of vizualisations
+~~**12 december 2016:** Midterm checkpoint - Examples of vizualisations~~
 
-**5 january 2017:** Start of the website design
+~~**5 january 2017:** Start of the website design~~
 
-**20 january 2017:** External research to extract relevant conclusion of the visualizations.
+~~**20 january 2017:** External research to extract relevant conclusion of the visualizations~~
 
-**31 january 2017:** End of the project. Final submission and update of the website
+~~**31 january 2017:** End of the project. Final submission and update of the website~~
